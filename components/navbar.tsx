@@ -24,6 +24,7 @@ export const Navbar = () => {
 
   return (
     <NextUINavbar
+      isMenuOpen={isMenuOpen}
       maxWidth="xl"
       position="sticky"
       onMenuOpenChange={setIsMenuOpen}
@@ -100,6 +101,7 @@ export const Navbar = () => {
               )}
               color="foreground"
               href={item.href}
+              onClick={() => setIsMenuOpen(false)}
             >
               {item.label}
             </NextLink>
@@ -112,6 +114,7 @@ export const Navbar = () => {
           )}
           color="foreground"
           href="/contact"
+          onClick={() => setIsMenuOpen(false)}
         >
           Contact
         </NextLink>
