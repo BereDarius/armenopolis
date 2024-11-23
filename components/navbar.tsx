@@ -36,7 +36,7 @@ export const Navbar = () => {
         />
         <NavbarBrand>
           <NextLink href="/">
-            <p className="font-bold text-inherit">ACME</p>
+            <p className="font-bold text-inherit">Armenopolis</p>
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
@@ -46,7 +46,7 @@ export const Navbar = () => {
           <NavbarItem key={item.href}>
             <NextLink
               className={clsx(
-                linkStyles({ color: "foreground" }),
+                linkStyles({ color: "foreground", underline: "hover" }),
                 "data-[active=true]:text-primary data-[active=true]:font-medium",
               )}
               color="foreground"
@@ -93,10 +93,14 @@ export const Navbar = () => {
 
       <NavbarMenu>
         {siteConfig.navItems.map((item) => (
-          <NavbarItem key={item.href}>
+          <NavbarItem key={item.href} className="flex justify-center my-5">
             <NextLink
               className={clsx(
-                linkStyles({ color: "foreground" }),
+                linkStyles({
+                  color: "foreground",
+                  size: "lg",
+                  underline: "hover",
+                }),
                 "data-[active=true]:text-primary data-[active=true]:font-medium",
               )}
               color="foreground"
@@ -107,17 +111,23 @@ export const Navbar = () => {
             </NextLink>
           </NavbarItem>
         ))}
-        <NextLink
-          className={clsx(
-            linkStyles({ color: "secondary" }),
-            "data-[active=true]:text-primary data-[active=true]:font-medium",
-          )}
-          color="foreground"
-          href="/contact"
-          onClick={() => setIsMenuOpen(false)}
-        >
-          Contact
-        </NextLink>
+        <NavbarItem className="flex justify-center my-5">
+          <NextLink
+            className={clsx(
+              linkStyles({
+                color: "secondary",
+                size: "lg",
+                underline: "always",
+              }),
+              "data-[active=true]:text-primary data-[active=true]:font-medium",
+            )}
+            color="foreground"
+            href="/contact"
+            onClick={() => setIsMenuOpen(false)}
+          >
+            Contact
+          </NextLink>
+        </NavbarItem>
       </NavbarMenu>
     </NextUINavbar>
   );
