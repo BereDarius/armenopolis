@@ -2,8 +2,10 @@ import { Link } from "@nextui-org/link";
 import { Snippet } from "@nextui-org/snippet";
 import { Code } from "@nextui-org/code";
 import { button as buttonStyles } from "@nextui-org/theme";
+import clsx from "clsx";
 
 import { title, subtitle } from "@/components/primitives";
+import { fontSerif } from "@/config/fonts";
 
 export default function Home() {
   return (
@@ -15,7 +17,7 @@ export default function Home() {
         <span className={title()}>
           websites regardless of your design experience.
         </span>
-        <div className={subtitle({ class: "mt-4" })}>
+        <div className={clsx(subtitle({ class: "mt-4" }), fontSerif.className)}>
           Beautiful, fast and modern React UI library.
         </div>
       </div>

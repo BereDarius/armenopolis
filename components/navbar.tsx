@@ -14,6 +14,7 @@ import { link as linkStyles } from "@nextui-org/theme";
 import NextLink from "next/link";
 import clsx from "clsx";
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
@@ -21,6 +22,7 @@ import { EnvelopeIcon, FacebookIcon, WhatsappIcon } from "@/components/icons";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   return (
     <NextUINavbar
@@ -46,10 +48,11 @@ export const Navbar = () => {
           <NavbarItem key={item.href}>
             <NextLink
               className={clsx(
-                linkStyles({ color: "foreground", underline: "hover" }),
-                "data-[active=true]:text-primary data-[active=true]:font-medium",
+                linkStyles({
+                  color: "foreground",
+                  underline: pathname === item.href ? "always" : "hover",
+                }),
               )}
-              color="foreground"
               href={item.href}
             >
               {item.label}
@@ -82,9 +85,9 @@ export const Navbar = () => {
         <NavbarItem className="hidden lg:flex">
           <Button
             as={Link}
-            className="text-sm font-normal text-default-600 bg-default-100"
+            className="text-lg font-normal text-default-600 bg-default-100"
             href="/contact"
-            variant="flat"
+            variant="faded"
           >
             Contact
           </Button>
@@ -99,11 +102,9 @@ export const Navbar = () => {
                 linkStyles({
                   color: "foreground",
                   size: "lg",
-                  underline: "hover",
+                  underline: pathname === item.href ? "always" : "hover",
                 }),
-                "data-[active=true]:text-primary data-[active=true]:font-medium",
               )}
-              color="foreground"
               href={item.href}
               onClick={() => setIsMenuOpen(false)}
             >
@@ -112,21 +113,14 @@ export const Navbar = () => {
           </NavbarItem>
         ))}
         <NavbarItem className="flex justify-center my-5">
-          <NextLink
-            className={clsx(
-              linkStyles({
-                color: "secondary",
-                size: "lg",
-                underline: "always",
-              }),
-              "data-[active=true]:text-primary data-[active=true]:font-medium",
-            )}
-            color="foreground"
+          <Button
+            as={Link}
+            className="text-lg font-normal text-default-600 bg-default-100"
             href="/contact"
-            onClick={() => setIsMenuOpen(false)}
+            variant={pathname === "/contact" ? "faded" : "flat"}
           >
             Contact
-          </NextLink>
+          </Button>
         </NavbarItem>
       </NavbarMenu>
     </NextUINavbar>
