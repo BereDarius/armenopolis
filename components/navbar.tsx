@@ -38,7 +38,7 @@ export const Navbar = () => {
         />
         <NavbarBrand>
           <NextLink href="/">
-            <p className="font-bold text-inherit">Armenopolis</p>
+            <p className="font-bold text-inherit">*** Hotel Karol ***</p>
           </NextLink>
         </NavbarBrand>
       </NavbarContent>

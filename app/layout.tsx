@@ -48,9 +48,9 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
-              <section className="flex-col items-center gap-1 text-current text-xs">
+              <section className="sm:flex items-center gap-1 text-center text-xs">
                 <span className="text-default-600 text-center">
-                  &copy; 2023 Hotel Karol
+                  &copy; 2024 Hotel Karol
                 </span>
                 <p className="text-primary text-center">
                   Toate drepturile rezervate

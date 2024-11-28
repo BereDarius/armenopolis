@@ -43,7 +43,6 @@ export default function GaleriePage() {
           >
             {group.map((image) => (
               <div key={image.src}>
-                {image.src}
                 <Image
                   alt={image.src}
                   className="h-auto max-w-full rounded-lg hover:cursor-pointer"
