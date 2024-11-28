@@ -1,7 +1,6 @@
 import * as React from "react";
 import "@/styles/globals.css";
 import { Metadata, Viewport } from "next";
-import { Link } from "@nextui-org/link";
 import clsx from "clsx";
 
 import { Providers } from "./providers";
@@ -49,15 +48,14 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
-              <Link
-                isExternal
-                className="flex items-center gap-1 text-current"
-                href="https://nextui-docs-v2.vercel.app?utm_source=next-app-template"
-                title="nextui.org homepage"
-              >
-                <span className="text-default-600">Powered by</span>
-                <p className="text-primary">NextUI</p>
-              </Link>
+              <section className="flex-col items-center gap-1 text-current text-xs">
+                <span className="text-default-600 text-center">
+                  &copy; 2023 Hotel Karol
+                </span>
+                <p className="text-primary text-center">
+                  Toate drepturile rezervate
+                </p>
+              </section>
             </footer>
           </div>
         </Providers>

@@ -9,12 +9,12 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Cazare",
-      href: "/cazare",
-    },
-    {
       label: "Galerie",
       href: "/galerie",
+    },
+    {
+      label: "Restaurant",
+      href: "/restaurant",
     },
     {
       label: "Despre",
@@ -27,12 +27,12 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Cazare",
-      href: "/cazare",
-    },
-    {
       label: "Galerie",
       href: "/galerie",
+    },
+    {
+      label: "Restaurant",
+      href: "/restaurant",
     },
     {
       label: "Despre",
