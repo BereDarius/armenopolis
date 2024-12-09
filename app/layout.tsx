@@ -15,9 +15,7 @@ export const metadata: Metadata = {
     template: `%s - ${siteConfig.name}`,
   },
   description: siteConfig.description,
-  icons: {
-    icon: "/favicon.ico",
-  },
+  keywords: siteConfig.keywords,
 };
 
 export const viewport: Viewport = {
