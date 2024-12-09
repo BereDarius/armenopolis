@@ -1,7 +1,7 @@
 .embla {
   max-width: 48rem;
   margin: auto;
-  --slide-height: 45rem;
+  --slide-height: 35rem;
   --slide-spacing: 1rem;
   --slide-size: 100%;
 }
@@ -25,7 +25,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 45rem;
+  height: 35rem;
   width: 80rem;
   object-fit: cover;
   user-select: none;

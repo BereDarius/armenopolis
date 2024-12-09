@@ -48,7 +48,7 @@ export const siteConfig = {
     },
   ],
   links: {
-    whatsapp: "https://whatsapp.com",
-    email: "mailto:email@email.com",
+    whatsapp: "https://wa.me/40723946272",
+    email: "mailto:gherlaccdp@yahoo.com",
   },
 };

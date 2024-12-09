@@ -7,7 +7,7 @@ import { homepage } from "@/public/images/images";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center gap-12">
+    <main className="flex flex-col items-center gap-8">
       <h1
         className={clsx(
           fontSans.className,

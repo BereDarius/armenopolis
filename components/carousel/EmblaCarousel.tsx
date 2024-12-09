@@ -39,7 +39,11 @@ const EmblaCarousel: React.FC = () => {
         <div className="embla__container">
           {images.map((image) => (
             <div key={image.src} className="embla__slide">
-              <Image className="embla__slide__number" src={image.src} />
+              <Image
+                className="embla__slide__number"
+                loading="eager"
+                src={image.src}
+              />
             </div>
           ))}
         </div>

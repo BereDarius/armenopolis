@@ -4,6 +4,7 @@ import bathroom3 from "./jpeg/bathroom3.jpeg";
 import bathroom4 from "./jpeg/bathroom4.jpeg";
 import bathroom5 from "./jpeg/bathroom5.jpeg";
 import biliard from "./jpeg/biliard.jpg";
+import casaArmeneasca from "./jpeg/casa-armeneasca.png";
 import drumetie from "./jpeg/drumetie.png";
 import entrance1 from "./jpeg/entrance1.jpeg";
 import entrance2 from "./jpeg/entrance2.jpeg";
@@ -32,6 +33,7 @@ import main6 from "./jpeg/main6.jpeg";
 import main7 from "./jpeg/main7.jpeg";
 import nicula from "./jpeg/nicula.png";
 import outside1 from "./jpeg/outside1.jpeg";
+import panorama from "./jpeg/panorama.png";
 import piano1 from "./jpeg/piano1.jpeg";
 import piano2 from "./jpeg/piano2.jpeg";
 import restaurant1 from "./jpeg/restaurant1.jpeg";
@@ -81,9 +83,74 @@ import underground8 from "./jpeg/underground8.jpeg";
 import underground9 from "./jpeg/underground9.jpeg";
 import upstairs1 from "./jpeg/upstairs1.jpeg";
 import upstairs2 from "./jpeg/upstairs2.jpeg";
+import tablou from "./jpeg/tablou.png";
+import bisericaSolomon from "./jpeg/biserica-solomon.png";
+import manastireaSf40 from "./jpeg/manastirea-sf-40.png";
+import laculStiucilor from "./jpeg/lacul-stiucilor.png";
+import dealuri from "./jpeg/dealuri.png";
+import saratura from "./jpeg/saratura.png";
+import armenopolis1 from "./jpeg/armenopolis1.png";
+import armenopolis2 from "./jpeg/armenopolis2.png";
+import armenopolis3 from "./jpeg/armenopolis3.png";
+import armenopolis4 from "./jpeg/armenopolis4.png";
+import armenopolis5 from "./jpeg/armenopolis5.png";
+import armenopolis6 from "./jpeg/armenopolis6.png";
+import karol1 from "./jpeg/karol1.png";
+import karol2 from "./jpeg/karol2.png";
+import karol3 from "./jpeg/karol3.png";
+import karol4 from "./jpeg/karol4.png";
+import karol5 from "./jpeg/karol5.png";
+import karol6 from "./jpeg/karol6.png";
+import karol7 from "./jpeg/karol7.png";
+import karol8 from "./jpeg/karol8.png";
+import karol9 from "./jpeg/karol9.png";
+import karol10 from "./jpeg/karol10.png";
+import karol11 from "./jpeg/karol11.png";
+import karol12 from "./jpeg/karol12.png";
+import karol13 from "./jpeg/karol13.png";
+import karol14 from "./jpeg/karol14.png";
+import karol15 from "./jpeg/karol15.png";
+import karol16 from "./jpeg/karol16.png";
+import reginaMaria1 from "./jpeg/regina-maria1.png";
+import reginaMaria2 from "./jpeg/regina-maria2.png";
+import reginaMaria3 from "./jpeg/regina-maria3.png";
+import reginaMaria4 from "./jpeg/regina-maria4.png";
 
 export {
+  reginaMaria1,
+  reginaMaria2,
+  reginaMaria3,
+  reginaMaria4,
+  karol1,
+  karol2,
+  karol3,
+  karol4,
+  karol5,
+  karol6,
+  karol7,
+  karol8,
+  karol9,
+  karol10,
+  karol11,
+  karol12,
+  karol13,
+  karol14,
+  karol15,
+  karol16,
+  armenopolis1,
+  armenopolis2,
+  armenopolis3,
+  armenopolis4,
+  armenopolis5,
+  armenopolis6,
+  saratura,
+  dealuri,
+  laculStiucilor,
+  manastireaSf40,
+  bisericaSolomon,
   biliard,
+  tablou,
+  casaArmeneasca,
   drumetie,
   homepage,
   jacuzzi,
@@ -121,6 +188,7 @@ export {
   bathroom3,
   hallway1,
   kitchen2,
+  panorama,
   room1_1,
   room1_2,
   room1_3,
@@ -164,106 +232,96 @@ export {
   underground6,
   underground7,
   underground8,
-  underground9,
   upstairs1,
 };
 
 export default [
-  main1,
-  main7,
-  piano2,
-  main6,
-
-  main4,
   upstairs2,
-  kitchen1,
-  hallway3,
+  upstairs1,
 
-  main2,
+  entrance4,
+  entrance3,
+  entrance2,
+  entrance1,
+
+  outside1,
+
+  garden3,
+  garden2,
+  garden1,
+
+  main7,
+  main6,
   main5,
-  piano1,
+  main4,
+  main3,
+  main2,
+  main1,
+  lounge2,
   lounge1,
 
-  main3,
-  outside1,
-  restaurant1,
-  hallway2,
-
-  entrance1,
-  garden3,
-  bathroom5,
-  bathroom2,
-
-  lounge2,
-  entrance4,
-  bathroom4,
-  entrance2,
-
-  entrance3,
-  garden2,
-  gate1,
-  bathroom1,
-
-  gate2,
-  garden1,
-  bathroom3,
-  hallway1,
+  room9_1,
+  room8_2,
+  room8_1,
+  room7_4,
+  room7_3,
+  room7_2,
+  room7_1,
+  room6_1,
+  room5_3,
+  room5_2,
+  room5_1,
+  room4_4,
+  room4_3,
+  room4_2,
+  room4_1,
+  room3_2,
+  room3_1,
+  room2_3,
+  room2_2,
+  room2_1,
+  room12_3,
+  room12_2,
+  room12_1,
+  room11_2,
+  room11_1,
+  room10_3,
+  room10_2,
+  room10_1,
+  room1_7,
+  room1_6,
+  room1_5,
+  room1_4,
+  room1_3,
+  room1_2,
+  room1_1,
 
   kitchen2,
-  room1_1,
-  room1_2,
-  room1_3,
+  kitchen1,
+  restaurant1,
 
-  room1_4,
-  room1_5,
-  room1_6,
-  room1_7,
+  bathroom5,
+  bathroom4,
+  bathroom3,
+  bathroom2,
+  bathroom1,
 
-  room2_1,
-  room2_2,
-  room2_3,
-  room3_1,
+  piano2,
+  piano1,
 
-  room3_2,
-  room4_1,
-  room4_2,
-  room4_3,
+  hallway3,
+  hallway2,
+  hallway1,
 
-  room4_4,
-  room5_1,
-  room5_2,
-  room5_3,
+  gate2,
+  gate1,
 
-  room6_1,
-  room7_1,
-  room7_2,
-  room7_3,
-
-  room7_4,
-  room8_1,
-  room8_2,
-  room9_1,
-
-  room10_1,
-  room10_2,
-  room10_3,
-  room11_1,
-
-  room11_2,
-  room12_1,
-  room12_2,
-  room12_3,
-
-  underground1,
-  underground2,
-  underground3,
-  underground4,
-
-  underground5,
-  underground6,
-  underground7,
   underground8,
-
-  underground9,
-  upstairs1,
+  underground7,
+  underground6,
+  underground5,
+  underground4,
+  underground3,
+  underground2,
+  underground1,
 ];
