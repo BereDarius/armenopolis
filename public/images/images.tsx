@@ -3,6 +3,8 @@ import bathroom2 from "./jpeg/bathroom2.jpeg";
 import bathroom3 from "./jpeg/bathroom3.jpeg";
 import bathroom4 from "./jpeg/bathroom4.jpeg";
 import bathroom5 from "./jpeg/bathroom5.jpeg";
+import biliard from "./jpeg/biliard.jpg";
+import drumetie from "./jpeg/drumetie.png";
 import entrance1 from "./jpeg/entrance1.jpeg";
 import entrance2 from "./jpeg/entrance2.jpeg";
 import entrance3 from "./jpeg/entrance3.jpeg";
@@ -16,6 +18,7 @@ import hallway1 from "./jpeg/hallway1.jpeg";
 import hallway2 from "./jpeg/hallway2.jpeg";
 import hallway3 from "./jpeg/hallway3.jpeg";
 import homepage from "./jpeg/homepage.jpg";
+import jacuzzi from "./jpeg/jacuzzi.png";
 import kitchen1 from "./jpeg/kitchen1.jpeg";
 import kitchen2 from "./jpeg/kitchen2.jpeg";
 import lounge1 from "./jpeg/lounge1.jpeg";
@@ -27,6 +30,7 @@ import main4 from "./jpeg/main4.jpeg";
 import main5 from "./jpeg/main5.jpeg";
 import main6 from "./jpeg/main6.jpeg";
 import main7 from "./jpeg/main7.jpeg";
+import nicula from "./jpeg/nicula.png";
 import outside1 from "./jpeg/outside1.jpeg";
 import piano1 from "./jpeg/piano1.jpeg";
 import piano2 from "./jpeg/piano2.jpeg";
@@ -78,7 +82,91 @@ import underground9 from "./jpeg/underground9.jpeg";
 import upstairs1 from "./jpeg/upstairs1.jpeg";
 import upstairs2 from "./jpeg/upstairs2.jpeg";
 
-export { homepage };
+export {
+  biliard,
+  drumetie,
+  homepage,
+  jacuzzi,
+  nicula,
+  main1,
+  main7,
+  piano2,
+  main6,
+  main4,
+  upstairs2,
+  kitchen1,
+  hallway3,
+  main2,
+  main5,
+  piano1,
+  lounge1,
+  main3,
+  outside1,
+  restaurant1,
+  hallway2,
+  entrance1,
+  garden3,
+  bathroom5,
+  bathroom2,
+  lounge2,
+  entrance4,
+  bathroom4,
+  entrance2,
+  entrance3,
+  garden2,
+  gate1,
+  bathroom1,
+  gate2,
+  garden1,
+  bathroom3,
+  hallway1,
+  kitchen2,
+  room1_1,
+  room1_2,
+  room1_3,
+  room1_4,
+  room1_5,
+  room1_6,
+  room1_7,
+  room2_1,
+  room2_2,
+  room2_3,
+  room3_1,
+  room3_2,
+  room4_1,
+  room4_2,
+  room4_3,
+  room4_4,
+  room5_1,
+  room5_2,
+  room5_3,
+  room6_1,
+  room7_1,
+  room7_2,
+  room7_3,
+  room7_4,
+  room8_1,
+  room8_2,
+  room9_1,
+  room10_1,
+  room10_2,
+  room10_3,
+  room11_1,
+  room11_2,
+  room12_1,
+  room12_2,
+  room12_3,
+  underground1,
+  underground2,
+  underground3,
+  underground4,
+  underground5,
+  underground6,
+  underground7,
+  underground8,
+  underground9,
+  upstairs1,
+};
 
 export default [
   main1,

@@ -33,11 +33,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html suppressHydrationWarning lang="en">
+    <html suppressHydrationWarning lang="ro">
       <head />
       <body
         className={clsx(
-          "min-h-screen bg-background font-sans antialiased",
+          "min-h-screen bg-background antialiased",
           fontSans.className,
         )}
       >
@@ -48,9 +48,9 @@ export default function RootLayout({
               {children}
             </main>
             <footer className="w-full flex items-center justify-center py-3">
-              <section className="sm:flex items-center gap-1 text-center text-xs">
+              <section className="sm:flex items-center gap-1 text-center text-md">
                 <span className="text-default-600 text-center">
-                  &copy; 2024 Hotel Karol
+                  &copy; 2024 Complex Hotelier Armenopolis
                 </span>
                 <p className="text-primary text-center">
                   Toate drepturile rezervate

@@ -18,7 +18,7 @@ import { usePathname } from "next/navigation";
 
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
-import { EnvelopeIcon, FacebookIcon, WhatsappIcon } from "@/components/icons";
+import { EnvelopeIcon, WhatsappIcon } from "@/components/icons";
 
 export const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -34,16 +34,16 @@ export const Navbar = () => {
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="sm:hidden"
+          className="md:hidden"
         />
         <NavbarBrand>
           <NextLink href="/">
-            <p className="font-bold text-inherit">*** Hotel Karol ***</p>
+            <p className="font-bold text-xl">Complex Armenopolis</p>
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden sm:flex gap-4" justify="center">
+      <NavbarContent className="hidden md:flex gap-4" justify="center">
         {siteConfig.navItems.map((item) => (
           <NavbarItem key={item.href}>
             <NextLink
@@ -65,13 +65,6 @@ export const Navbar = () => {
         <NavbarItem className="flex gap-3">
           <Link
             isExternal
-            aria-label="Facebook"
-            href={siteConfig.links.facebook}
-          >
-            <FacebookIcon className="text-default-500" />
-          </Link>
-          <Link
-            isExternal
             aria-label="WhatsApp"
             href={siteConfig.links.whatsapp}
           >
@@ -82,7 +75,7 @@ export const Navbar = () => {
           </Link>
           <ThemeSwitch />
         </NavbarItem>
-        <NavbarItem className="hidden lg:flex">
+        <NavbarItem className="hidden md:flex">
           <Button
             as={Link}
             className="text-lg font-normal text-default-600 bg-default-100"

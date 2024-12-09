@@ -1,63 +1,43 @@
+import { Button } from "@nextui-org/button";
 import clsx from "clsx";
 import { Image } from "@nextui-org/image";
 
+import { fontSans, fontSerif } from "@/config/fonts";
 import { homepage } from "@/public/images/images";
-import { title, subtitle } from "@/components/primitives";
-import { fontSerif } from "@/config/fonts";
 
 export default function Home() {
   return (
-    <main className="felx flex-col text-center h-full md:h-4/6">
-      <span
-        className={title({
-          color: "yellow",
-          size: "lg",
-        })}
+    <main className="flex flex-col items-center gap-12">
+      <h1
+        className={clsx(
+          fontSans.className,
+          "text-4xl md:text-7xl font-bold text-center",
+        )}
       >
-        Hotel Karol&nbsp;
-      </span>
-      <section className="flex flex-col md:flex-row items-center justify-center h-full gap-4">
-        <section className="flex flex-col gap-4 max-w-xl text-center justify-center">
-          <Image
-            alt={homepage.src}
-            isBlurred={true}
-            loading="eager"
-            src={homepage.src}
-          />
-        </section>
-        <section className="flex flex-col gap-4 max-w-xl text-center justify-center">
-          <article
-            className={clsx(
-              subtitle({ class: "text-small px-4" }),
-              fontSerif.className,
-            )}
-          >
-            Situat în Gherla, la 41 km de EXPO Transilvania și la 45 km de
-            Muzeul Etnografic al Transilvaniei, Hotelul Karol oferă cazare cu
-            lounge comun, terasă și WiFi gratuit.
-          </article>
-          <article
-            className={clsx(
-              subtitle({ class: "text-small px-4" }),
-              fontSerif.className,
-            )}
-          >
-            Apartamentul are TV cu ecran plat şi baie privată cu articole de
-            toaletă gratuite, uscător de păr şi bideu. Oaspeții Hotelului Karol
-            pot savura mic dejun tip bufet sau continental.
-          </article>
-          <article
-            className={clsx(
-              subtitle({ class: "text-small px-4" }),
-              fontSerif.className,
-            )}
-          >
-            Palatul Bánffy este situat la 45 km de cazare, iar Cluj Arena se
-            află la 46 km. Cel mai apropiat aeroport este Aeroportul
-            Internaţional Cluj Avram Iancu, situat la 35 km de Hotelul Karol.
-          </article>
-        </section>
+        Transformă team building-ul într-un eveniment de neuitat!
+      </h1>
+      <article
+        className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
+      >
+        Complexul Armenopolis îmbină aventura și luxul pentru a oferi experiențe
+        memorabile. Ideal pentru team building-uri, relaxare și descoperirea
+        patrimoniului cultural din Gherla.
+      </article>
+      <section className="flex flex-row justify-center md:justify-start gap-4">
+        <Button color="default" radius="md" size="lg" variant="bordered">
+          Despre noi
+        </Button>
+        <Button color="default" radius="md" size="lg" variant="shadow">
+          Contactează-ne
+        </Button>
       </section>
+      <Image
+        alt="Hotel Armenopolis"
+        isBlurred={true}
+        loading="eager"
+        src={homepage.src}
+        width="750"
+      />
     </main>
   );
 }
