@@ -1,6 +1,7 @@
 import { Button } from "@nextui-org/button";
 import clsx from "clsx";
 import { Image } from "@nextui-org/image";
+import { Link } from "@nextui-org/link";
 
 import { fontSans, fontSerif } from "@/config/fonts";
 import { homepage } from "@/public/images/images";
@@ -24,10 +25,24 @@ export default function Home() {
         patrimoniului cultural din Gherla.
       </article>
       <section className="flex flex-row justify-center md:justify-start gap-4">
-        <Button color="default" radius="md" size="lg" variant="bordered">
+        <Button
+          as={Link}
+          color="default"
+          href="/despre-noi"
+          radius="md"
+          size="lg"
+          variant="bordered"
+        >
           Despre noi
         </Button>
-        <Button color="default" radius="md" size="lg" variant="shadow">
+        <Button
+          as={Link}
+          color="default"
+          href="/contact"
+          radius="md"
+          size="lg"
+          variant="shadow"
+        >
           Contactează-ne
         </Button>
       </section>
