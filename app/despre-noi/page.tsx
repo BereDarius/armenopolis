@@ -7,9 +7,9 @@ import {
   armenopolis2,
   armenopolis3_1,
   armenopolis3_2,
-  armenopolis4,
   armenopolis5,
   armenopolis6,
+  armenopolis8,
   jacuzzi,
   karol1,
   karol10,
@@ -27,10 +27,12 @@ import {
   karol7,
   karol8,
   karol9,
+  masaj,
   reginaMaria1,
   reginaMaria2,
   reginaMaria3,
   reginaMaria4,
+  sauna,
 } from "@/public/images/images";
 
 export default function DespreNoiPage() {
@@ -49,7 +51,7 @@ export default function DespreNoiPage() {
           alt="Hotel Armenopolis"
           isBlurred={true}
           loading="eager"
-          src={armenopolis1.src}
+          src={armenopolis3_1.src}
           width="750"
         />
         <span className={clsx(fontSerif.className)}>Hotel Armenopolis</span>
@@ -89,26 +91,26 @@ export default function DespreNoiPage() {
       </div>
       <div className="flex flex-col gap-2">
         <Image
-          alt="Clădirea hotelului, văzută din curtea interioară"
+          alt="Curtea interioară a hotelului"
           isBlurred={true}
           loading="eager"
-          src={armenopolis3_1.src}
+          src={armenopolis8.src}
           width="750"
         />
         <span className={clsx(fontSerif.className)}>
-          Clădirea hotelului, văzută din curtea interioară
+          Curtea interioară a hotelului
         </span>
       </div>
       <div className="flex flex-col gap-2">
         <Image
-          alt="Clădirea hotelului, văzută din curtea interioară"
+          alt="Zona de relaxare din curtea interioară a hotelului"
           isBlurred={true}
           loading="eager"
           src={armenopolis3_2.src}
           width="750"
         />
         <span className={clsx(fontSerif.className)}>
-          Clădirea hotelului, văzută din curtea interioară
+          Zona de relaxare din curtea interioară a hotelului
         </span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
@@ -124,7 +126,7 @@ export default function DespreNoiPage() {
           alt="Hotel Armenopolis, Gherla - cameră dublă"
           isBlurred={true}
           loading="eager"
-          src={armenopolis4.src}
+          src={armenopolis1.src}
           width="750"
         />
         <span className={clsx(fontSerif.className)}>
@@ -163,14 +165,14 @@ export default function DespreNoiPage() {
       </article>
       <div className="flex flex-col gap-2">
         <Image
-          alt="Salonul în care servește micul dejun"
+          alt="Salonul în care se servește micul dejun"
           isBlurred={true}
           loading="eager"
           src={armenopolis6.src}
           width="750"
         />
         <span className={clsx(fontSerif.className)}>
-          Salonul în care servește micul dejun
+          Salonul în care se servește micul dejun
         </span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
@@ -190,6 +192,34 @@ export default function DespreNoiPage() {
           width="750"
         />
         <span className={clsx(fontSerif.className)}>Jacuzzi</span>
+      </div>
+      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
+        Masa noastră de masaj confortabilă vă așteaptă într-un mediu liniștit,
+        perfect pentru a elimina stresul și a vă reda starea de bine.
+      </article>
+      <div className="flex flex-col gap-2">
+        <Image
+          alt="Masă de masaj"
+          isBlurred={true}
+          loading="eager"
+          src={masaj.src}
+          width="750"
+        />
+        <span className={clsx(fontSerif.className)}>Masă de masaj</span>
+      </div>
+      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
+        Saună Relaxantă: Experiența supremă de relaxare vă așteaptă în sauna
+        noastră modernă.
+      </article>
+      <div className="flex flex-col gap-2">
+        <Image
+          alt="Saună pentru relaxare"
+          isBlurred={true}
+          loading="eager"
+          src={sauna.src}
+          width="750"
+        />
+        <span className={clsx(fontSerif.className)}>Saună pentru relaxare</span>
       </div>
       <h1
         className={clsx(

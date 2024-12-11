@@ -5,6 +5,7 @@ import armenopolis3_2 from "./jpeg/armenopolis3-2.jpg";
 import armenopolis4 from "./jpeg/armenopolis4.png";
 import armenopolis5 from "./jpeg/armenopolis5.png";
 import armenopolis6 from "./jpeg/armenopolis6.png";
+import armenopolis7 from "./jpeg/armenopolis7.png";
 import bathroom1 from "./jpeg/bathroom1.jpeg";
 import bathroom2 from "./jpeg/bathroom2.jpeg";
 import bathroom3 from "./jpeg/bathroom3.jpeg";
@@ -60,9 +61,12 @@ import main5 from "./jpeg/main5.jpeg";
 import main6 from "./jpeg/main6.jpeg";
 import main7 from "./jpeg/main7.jpeg";
 import manastireaSf40 from "./jpeg/manastirea-sf-40.png";
+import masaj from "./jpeg/masaj.png";
+import muzeu from "./jpeg/muzeu.png";
 import nicula from "./jpeg/nicula.png";
 import outside1 from "./jpeg/outside1.jpeg";
 import panorama from "./jpeg/panorama.png";
+import parc from "./jpeg/parc.png";
 import piano1 from "./jpeg/piano1.jpeg";
 import piano2 from "./jpeg/piano2.jpeg";
 import reginaMaria1 from "./jpeg/regina-maria1.png";
@@ -106,6 +110,7 @@ import room8_1 from "./jpeg/room8_1.jpeg";
 import room8_2 from "./jpeg/room8_2.jpeg";
 import room9_1 from "./jpeg/room9_1.jpeg";
 import saratura from "./jpeg/saratura.png";
+import sinagoga from "./jpeg/sinagoga.png";
 import tablou from "./jpeg/tablou.png";
 import underground1 from "./jpeg/underground1.jpeg";
 import underground2 from "./jpeg/underground2.jpeg";
@@ -117,21 +122,55 @@ import underground7 from "./jpeg/underground7.jpeg";
 import underground8 from "./jpeg/underground8.jpeg";
 import upstairs1 from "./jpeg/upstairs1.jpeg";
 import upstairs2 from "./jpeg/upstairs2.jpeg";
-import parc from "./jpeg/parc.png";
-import muzeu from "./jpeg/muzeu.png";
-import sinagoga from "./jpeg/sinagoga.png";
+import armenopolis8 from "./jpeg/armenopolis8.png";
+import sauna from "./jpeg/sauna.png";
 
 export {
-  sinagoga,
-  muzeu,
-  parc,
+  sauna,
+  masaj,
+  armenopolis1,
+  armenopolis2,
+  armenopolis3_1,
+  armenopolis3_2,
+  armenopolis4,
+  armenopolis5,
+  armenopolis6,
+  armenopolis7,
+  armenopolis8,
+  bathroom1,
+  bathroom2,
+  bathroom3,
+  bathroom4,
+  bathroom5,
+  biliard,
   bisericaCentru,
+  bisericaSolomon,
+  casaArmeneasca,
   cetate,
-  reginaMaria1,
-  reginaMaria2,
-  reginaMaria3,
-  reginaMaria4,
+  dealuri,
+  drumetie,
+  entrance1,
+  entrance2,
+  entrance3,
+  entrance4,
+  garden1,
+  garden2,
+  garden3,
+  gate1,
+  gate2,
+  hallway1,
+  hallway2,
+  hallway3,
+  homepage,
+  jacuzzi,
   karol1,
+  karol10,
+  karol11,
+  karol12,
+  karol13,
+  karol14,
+  karol15,
+  karol16,
   karol2,
   karol3,
   karol4,
@@ -140,66 +179,31 @@ export {
   karol7,
   karol8,
   karol9,
-  karol10,
-  karol11,
-  karol12,
-  karol13,
-  karol14,
-  karol15,
-  karol16,
-  armenopolis1,
-  armenopolis2,
-  armenopolis3_1,
-  armenopolis3_2,
-  armenopolis4,
-  armenopolis5,
-  armenopolis6,
-  saratura,
-  dealuri,
-  laculStiucilor,
-  manastireaSf40,
-  bisericaSolomon,
-  biliard,
-  tablou,
-  casaArmeneasca,
-  drumetie,
-  homepage,
-  jacuzzi,
-  nicula,
-  main1,
-  main7,
-  piano2,
-  main6,
-  main4,
-  upstairs2,
   kitchen1,
-  hallway3,
-  main2,
-  main5,
-  piano1,
-  lounge1,
-  main3,
-  outside1,
-  restaurant1,
-  hallway2,
-  entrance1,
-  garden3,
-  bathroom5,
-  bathroom2,
-  lounge2,
-  entrance4,
-  bathroom4,
-  entrance2,
-  entrance3,
-  garden2,
-  gate1,
-  bathroom1,
-  gate2,
-  garden1,
-  bathroom3,
-  hallway1,
   kitchen2,
+  laculStiucilor,
+  lounge1,
+  lounge2,
+  main1,
+  main2,
+  main3,
+  main4,
+  main5,
+  main6,
+  main7,
+  manastireaSf40,
+  muzeu,
+  nicula,
+  outside1,
   panorama,
+  parc,
+  piano1,
+  piano2,
+  reginaMaria1,
+  reginaMaria2,
+  reginaMaria3,
+  reginaMaria4,
+  restaurant1,
   room1_1,
   room1_2,
   room1_3,
@@ -207,6 +211,14 @@ export {
   room1_5,
   room1_6,
   room1_7,
+  room10_1,
+  room10_2,
+  room10_3,
+  room11_1,
+  room11_2,
+  room12_1,
+  room12_2,
+  room12_3,
   room2_1,
   room2_2,
   room2_3,
@@ -227,14 +239,9 @@ export {
   room8_1,
   room8_2,
   room9_1,
-  room10_1,
-  room10_2,
-  room10_3,
-  room11_1,
-  room11_2,
-  room12_1,
-  room12_2,
-  room12_3,
+  saratura,
+  sinagoga,
+  tablou,
   underground1,
   underground2,
   underground3,
@@ -244,6 +251,7 @@ export {
   underground7,
   underground8,
   upstairs1,
+  upstairs2,
 };
 
 export default [
