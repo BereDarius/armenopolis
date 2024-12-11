@@ -20,9 +20,9 @@ export default function Home() {
       <article
         className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
       >
-        Complexul Armenopolis îmbină aventura și luxul pentru a oferi experiențe
-        memorabile. Ideal pentru team building-uri, relaxare și descoperirea
-        patrimoniului cultural din Gherla.
+        Complexul Armenopolis îmbină aventura cu luxul pentru a oferi experiențe
+        memorabile. Este locul ideal pentru team building-uri, relaxare și
+        descoperirea patrimoniului cultural din Gherla.
       </article>
       <section className="flex flex-row justify-center md:justify-start gap-4">
         <Button
