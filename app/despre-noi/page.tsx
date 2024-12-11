@@ -5,7 +5,8 @@ import { fontSans, fontSerif } from "@/config/fonts";
 import {
   armenopolis1,
   armenopolis2,
-  armenopolis3,
+  armenopolis3_1,
+  armenopolis3_2,
   armenopolis4,
   armenopolis5,
   armenopolis6,
@@ -54,24 +55,25 @@ export default function DespreNoiPage() {
         <span className={clsx(fontSerif.className)}>Hotel Armenopolis</span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Hotel Armenopolis este o casă armenească de la 1762 care a devenit o
-        oază barocă de relaxare pentru turiștii, în Gherla.
+        Hotel Armenopolis este o casă armeană istorică, datând din 1762,
+        transformată într-o oază barocă de relaxare pentru turiștii din Gherla.
+        Amplasată în inima orașului, această reședință plină de istorie își
+        întâmpină vizitatorii cu un aer boem, unde boltele elegante, pianul de
+        la intrare și mobilierul din lemn masiv recreează farmecul epocilor
+        trecute.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        De doi ani, o casă armenească de la 1762 din Gherla (fostul Armenopolis)
-        a devenit o oază barocă de liniște și relaxare pentru turiști. Amplasată
-        în centrul orașului Gherla, casa, acum transformată în Hotel Armenopolis
-        își întâmpină turiștii cu un aer boem, boltele, pianul aflat la intrare
-        și piesele de mobilier din lemn masiv transportând vizitatorii în
-        vremurile de demult.
+        Construită în 1762 de o familie armeană, casa este situată pe strada
+        principală a orașului, aproape de kilometrul 0 al localității. Inițial
+        destinată ca locuință, casa a fost vândută în jurul anului 1800 unei
+        familii evreiești, devenind o școală evreiască. Ulterior, după venirea
+        regimului comunist, casa a fost naționalizată și a funcționat ca sediu
+        UCECOM din Gherla.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Construită la 1762 de către o familie de armeni, casa este localizată pe
-        strada principală a orașului, aproape de kilometrul 0 al localității.
-        Casa a avut inițial destinație de locuit, dar pe la 1800 a fost vânduta
-        unor evrei și din momentul acela a funcționat ca și școală evreiască.
-        Ulterior, după venirea comuniștilor, casa a fost naționalizată și ultima
-        ei destinație a fost sediul UCECOM din Gherla.
+        De doi ani, Hotel Armenopolis continuă să aducă la viață istoria
+        fascinantă a orașului, oferind o experiență de neuitat pentru toți cei
+        care îi trec pragul.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -85,16 +87,24 @@ export default function DespreNoiPage() {
           Poarta Hotel Armenopolis, renovată
         </span>
       </div>
-      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        În urmă cu cinci ani, proprietarul actual a cumpărat casa de la un
-        moștenitor. Casa era în paragină, acoperișul era complet distrus.
-      </article>
       <div className="flex flex-col gap-2">
         <Image
           alt="Clădirea hotelului, văzută din curtea interioară"
           isBlurred={true}
           loading="eager"
-          src={armenopolis3.src}
+          src={armenopolis3_1.src}
+          width="750"
+        />
+        <span className={clsx(fontSerif.className)}>
+          Clădirea hotelului, văzută din curtea interioară
+        </span>
+      </div>
+      <div className="flex flex-col gap-2">
+        <Image
+          alt="Clădirea hotelului, văzută din curtea interioară"
+          isBlurred={true}
+          loading="eager"
+          src={armenopolis3_2.src}
           width="750"
         />
         <span className={clsx(fontSerif.className)}>
@@ -123,16 +133,17 @@ export default function DespreNoiPage() {
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
         Casa armenească de la 1762 oferă acum turiștilor patru camere duble cu
-        pat matrimonial și opt camere single.
+        pat matrimonial și opt camere single, combinând confortul modern cu
+        farmecul istoric.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Pe langa serviciile hoteliere, hotelul oferă și servicii de sacroterapie
-        care sunt benefice in caz de surmenaj, stres si depasirea momentelor
-        dificile care apar in viata oricarei persoane.
+        Pe lângă serviciile hoteliere, hotelul oferă și servicii de
+        sacroterapie, benefice pentru surmenaj, stres și depășirea momentelor
+        dificile din viața fiecărei persoane.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Unitatea detine un Paraclis al Sfintei Cecilia unde cine doreste se
-        poate ruga la Racla Sfintei.
+        Unitatea include Paraclisul Sfintei Cecilia, unde cei interesați se pot
+        ruga la Racla Sfintei.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -163,12 +174,12 @@ export default function DespreNoiPage() {
         </span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Într-un tratat de arhitectură armenească, bolta din salonul în care
-        servește micul dejun a fost declarată cea mai frumoasă boltă din Gherla.
+        Conform unui tratat de arhitectură armenească, bolta din salonul de mic
+        dejun a fost declarată cea mai frumoasă boltă din Gherla.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Partea de SPA va ofera posibilitatea sa petreceti timp in JACUZII ,
-        SAUNA si la cerere MASAJ.
+        Zona de SPA vă oferă posibilitatea de a petrece timp în jacuzzi, saună
+        și, la cerere, să beneficiați de sesiuni de masaj.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -189,8 +200,8 @@ export default function DespreNoiPage() {
         Hotel Karol
       </h1>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Hotel Karol este o casă armenească de la 1767 care a devenit o oază
-        barocă de relaxare pentru turiștii, în Gherla.
+        Hotel Karol este o casă armenească din 1767, transformată într-o oază
+        barocă de relaxare pentru turiștii din Gherla.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -273,9 +284,9 @@ export default function DespreNoiPage() {
         <span className={clsx(fontSerif.className)}>Hotel Karol - camera</span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Pe lângă serviciile hoteliere hotelul oferă posibilitatea organizarii
-        unor concursuri de gatit in bucataria hotelului cat si pe terasa la
-        gratar.
+        Pe lângă serviciile hoteliere, hotelul oferă posibilitatea organizării
+        unor concursuri de gătit, atât în bucătăria hotelului, cât și pe terasa
+        special amenajată pentru grătar.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -300,8 +311,8 @@ export default function DespreNoiPage() {
         <span className={clsx(fontSerif.className)}>Hotel Karol - terasa</span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Servirea mesei in sala intr-o admosfera de o deosebita eleganta sau pe
-        terasa.
+        Servirea mesei se poate face în sală într-o atmosferă elegantă sau pe
+        terasă.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -316,8 +327,8 @@ export default function DespreNoiPage() {
         </span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Servirea mesei se poate face si cu preparate puse la dispozitia
-        clientilor, la comanda.
+        Servirea mesei se poate face și cu preparate puse la dispoziția
+        clienților, la comandă.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -388,12 +399,12 @@ export default function DespreNoiPage() {
         Casa Regina Maria
       </h1>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Casa Regina Maria este cea de a treia locatie a Complexului Hotelier
+        Casa Regina Maria este cea de-a treia locație a Complexului Hotelier
         Armenopolis.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        In aceasta locatie se pot oferi servicii de cazare si masa (mic dejun)
-        pentru o parte a echipei
+        În această locație, se oferă servicii de cazare și mic dejun pentru o
+        parte din echipă, asigurând confortul și ospitalitatea necesare.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -438,18 +449,18 @@ export default function DespreNoiPage() {
         <span className={clsx(fontSerif.className)}>Regina Maria - camera</span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Locația excellează în crearea unui mediu propice pentru activități de
-        team building, îmbinând relaxarea cu diversele opțiuni de divertisment.
-        Fiecare detaliu este gândit să contribuie la o experiență memorabilă,
-        făcând din Complexul Hotelier Armenopolis un punct de referință printre
-        locațiile team building din România.
+        Locația excelează în crearea unui mediu ideal pentru activități de team
+        building, combinând relaxarea cu diverse opțiuni de divertisment.
+        Fiecare detaliu este conceput pentru a asigura o experiență memorabilă,
+        transformând Complexul Hotelier Armenopolis într-un reper de referință
+        pentru team building în România.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
         Locul este recunoscut pentru serviciile sale excepționale și pentru
-        capacitatea de a oferi o experiență personalizată fiecărui grup.
-        Indiferent dacă doriți activități în aer liber sau momente de relaxare
-        la spa, Complexul Hotelier Armenopolis răspunde nevoilor echipelor care
-        doresc să se reconecteze și să se dezvolte împreună.
+        capacitatea de a oferi experiențe personalizate fiecărui grup.
+        Indiferent dacă preferați activități în aer liber sau momente de
+        relaxare la spa, Complexul Hotelier Armenopolis răspunde nevoilor
+        echipelor care doresc să se reconecteze și să crească împreună.
       </article>
     </main>
   );

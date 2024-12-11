@@ -1,10 +1,19 @@
+import armenopolis1 from "./jpeg/armenopolis1.jpg";
+import armenopolis2 from "./jpeg/armenopolis2.jpg";
+import armenopolis3_1 from "./jpeg/armenopolis3-1.jpg";
+import armenopolis3_2 from "./jpeg/armenopolis3-2.jpg";
+import armenopolis4 from "./jpeg/armenopolis4.png";
+import armenopolis5 from "./jpeg/armenopolis5.png";
+import armenopolis6 from "./jpeg/armenopolis6.png";
 import bathroom1 from "./jpeg/bathroom1.jpeg";
 import bathroom2 from "./jpeg/bathroom2.jpeg";
 import bathroom3 from "./jpeg/bathroom3.jpeg";
 import bathroom4 from "./jpeg/bathroom4.jpeg";
 import bathroom5 from "./jpeg/bathroom5.jpeg";
 import biliard from "./jpeg/biliard.jpg";
+import bisericaSolomon from "./jpeg/biserica-solomon.png";
 import casaArmeneasca from "./jpeg/casa-armeneasca.png";
+import dealuri from "./jpeg/dealuri.png";
 import drumetie from "./jpeg/drumetie.png";
 import entrance1 from "./jpeg/entrance1.jpeg";
 import entrance2 from "./jpeg/entrance2.jpeg";
@@ -20,8 +29,25 @@ import hallway2 from "./jpeg/hallway2.jpeg";
 import hallway3 from "./jpeg/hallway3.jpeg";
 import homepage from "./jpeg/homepage.jpg";
 import jacuzzi from "./jpeg/jacuzzi.png";
+import karol1 from "./jpeg/karol1.png";
+import karol10 from "./jpeg/karol10.png";
+import karol11 from "./jpeg/karol11.png";
+import karol12 from "./jpeg/karol12.png";
+import karol13 from "./jpeg/karol13.png";
+import karol14 from "./jpeg/karol14.png";
+import karol15 from "./jpeg/karol15.png";
+import karol16 from "./jpeg/karol16.png";
+import karol2 from "./jpeg/karol2.png";
+import karol3 from "./jpeg/karol3.png";
+import karol4 from "./jpeg/karol4.png";
+import karol5 from "./jpeg/karol5.png";
+import karol6 from "./jpeg/karol6.png";
+import karol7 from "./jpeg/karol7.png";
+import karol8 from "./jpeg/karol8.png";
+import karol9 from "./jpeg/karol9.png";
 import kitchen1 from "./jpeg/kitchen1.jpeg";
 import kitchen2 from "./jpeg/kitchen2.jpeg";
+import laculStiucilor from "./jpeg/lacul-stiucilor.png";
 import lounge1 from "./jpeg/lounge1.jpeg";
 import lounge2 from "./jpeg/lounge2.jpeg";
 import main1 from "./jpeg/main1.jpeg";
@@ -31,11 +57,16 @@ import main4 from "./jpeg/main4.jpeg";
 import main5 from "./jpeg/main5.jpeg";
 import main6 from "./jpeg/main6.jpeg";
 import main7 from "./jpeg/main7.jpeg";
+import manastireaSf40 from "./jpeg/manastirea-sf-40.png";
 import nicula from "./jpeg/nicula.png";
 import outside1 from "./jpeg/outside1.jpeg";
 import panorama from "./jpeg/panorama.png";
 import piano1 from "./jpeg/piano1.jpeg";
 import piano2 from "./jpeg/piano2.jpeg";
+import reginaMaria1 from "./jpeg/regina-maria1.png";
+import reginaMaria2 from "./jpeg/regina-maria2.png";
+import reginaMaria3 from "./jpeg/regina-maria3.png";
+import reginaMaria4 from "./jpeg/regina-maria4.png";
 import restaurant1 from "./jpeg/restaurant1.jpeg";
 import room1_1 from "./jpeg/room1_1.jpeg";
 import room1_2 from "./jpeg/room1_2.jpeg";
@@ -72,6 +103,8 @@ import room7_4 from "./jpeg/room7_4.jpeg";
 import room8_1 from "./jpeg/room8_1.jpeg";
 import room8_2 from "./jpeg/room8_2.jpeg";
 import room9_1 from "./jpeg/room9_1.jpeg";
+import saratura from "./jpeg/saratura.png";
+import tablou from "./jpeg/tablou.png";
 import underground1 from "./jpeg/underground1.jpeg";
 import underground2 from "./jpeg/underground2.jpeg";
 import underground3 from "./jpeg/underground3.jpeg";
@@ -80,41 +113,8 @@ import underground5 from "./jpeg/underground5.jpeg";
 import underground6 from "./jpeg/underground6.jpeg";
 import underground7 from "./jpeg/underground7.jpeg";
 import underground8 from "./jpeg/underground8.jpeg";
-import underground9 from "./jpeg/underground9.jpeg";
 import upstairs1 from "./jpeg/upstairs1.jpeg";
 import upstairs2 from "./jpeg/upstairs2.jpeg";
-import tablou from "./jpeg/tablou.png";
-import bisericaSolomon from "./jpeg/biserica-solomon.png";
-import manastireaSf40 from "./jpeg/manastirea-sf-40.png";
-import laculStiucilor from "./jpeg/lacul-stiucilor.png";
-import dealuri from "./jpeg/dealuri.png";
-import saratura from "./jpeg/saratura.png";
-import armenopolis1 from "./jpeg/armenopolis1.png";
-import armenopolis2 from "./jpeg/armenopolis2.png";
-import armenopolis3 from "./jpeg/armenopolis3.png";
-import armenopolis4 from "./jpeg/armenopolis4.png";
-import armenopolis5 from "./jpeg/armenopolis5.png";
-import armenopolis6 from "./jpeg/armenopolis6.png";
-import karol1 from "./jpeg/karol1.png";
-import karol2 from "./jpeg/karol2.png";
-import karol3 from "./jpeg/karol3.png";
-import karol4 from "./jpeg/karol4.png";
-import karol5 from "./jpeg/karol5.png";
-import karol6 from "./jpeg/karol6.png";
-import karol7 from "./jpeg/karol7.png";
-import karol8 from "./jpeg/karol8.png";
-import karol9 from "./jpeg/karol9.png";
-import karol10 from "./jpeg/karol10.png";
-import karol11 from "./jpeg/karol11.png";
-import karol12 from "./jpeg/karol12.png";
-import karol13 from "./jpeg/karol13.png";
-import karol14 from "./jpeg/karol14.png";
-import karol15 from "./jpeg/karol15.png";
-import karol16 from "./jpeg/karol16.png";
-import reginaMaria1 from "./jpeg/regina-maria1.png";
-import reginaMaria2 from "./jpeg/regina-maria2.png";
-import reginaMaria3 from "./jpeg/regina-maria3.png";
-import reginaMaria4 from "./jpeg/regina-maria4.png";
 
 export {
   reginaMaria1,
@@ -139,7 +139,8 @@ export {
   karol16,
   armenopolis1,
   armenopolis2,
-  armenopolis3,
+  armenopolis3_1,
+  armenopolis3_2,
   armenopolis4,
   armenopolis5,
   armenopolis6,
