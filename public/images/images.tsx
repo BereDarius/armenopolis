@@ -11,8 +11,10 @@ import bathroom3 from "./jpeg/bathroom3.jpeg";
 import bathroom4 from "./jpeg/bathroom4.jpeg";
 import bathroom5 from "./jpeg/bathroom5.jpeg";
 import biliard from "./jpeg/biliard.jpg";
+import bisericaCentru from "./jpeg/biserica-centru.png";
 import bisericaSolomon from "./jpeg/biserica-solomon.png";
 import casaArmeneasca from "./jpeg/casa-armeneasca.png";
+import cetate from "./jpeg/cetate.png";
 import dealuri from "./jpeg/dealuri.png";
 import drumetie from "./jpeg/drumetie.png";
 import entrance1 from "./jpeg/entrance1.jpeg";
@@ -115,8 +117,16 @@ import underground7 from "./jpeg/underground7.jpeg";
 import underground8 from "./jpeg/underground8.jpeg";
 import upstairs1 from "./jpeg/upstairs1.jpeg";
 import upstairs2 from "./jpeg/upstairs2.jpeg";
+import parc from "./jpeg/parc.png";
+import muzeu from "./jpeg/muzeu.png";
+import sinagoga from "./jpeg/sinagoga.png";
 
 export {
+  sinagoga,
+  muzeu,
+  parc,
+  bisericaCentru,
+  cetate,
   reginaMaria1,
   reginaMaria2,
   reginaMaria3,
