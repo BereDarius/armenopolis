@@ -21,7 +21,7 @@ export default {
       themes: {
         light: {
           colors: {
-            background: "#F9F5EE",
+            background: "#F4EBDE",
             foreground: "#462115",
             default: {
               100: "#F6E2D0",
@@ -82,19 +82,6 @@ export default {
               foreground: "#462115",
             },
           },
-          // layout: {
-          //   disabledOpacity: "0.3",
-          //   radius: {
-          //     small: "4px",
-          //     medium: "6px",
-          //     large: "8px",
-          //   },
-          //   borderWidth: {
-          //     small: "1px",
-          //     medium: "2px",
-          //     large: "3px",
-          //   },
-          // },
         },
       },
     }),
