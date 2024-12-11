@@ -18,24 +18,25 @@ export default function FacilitatiPage() {
           "text-4xl md:text-7xl font-bold text-center",
         )}
       >
-        O Locație Ideală pentru Team Building-uri
+        O locatie ideală pentru Team Building-uri!
       </h1>
       <section className="flex flex-col">
         <article
           className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
         >
-          Vei reusi sa îmbunătățesti coeziunea și performanța echipei tale.
+          Îmbunătățește coeziunea și performanța echipei tale într-un cadru
+          unic!
         </article>
         <article
           className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
         >
-          Aventura și luxul se întâlnesc pentru a oferi experiențe unice.
+          Aventura și luxul se întâlnesc pentru a crea experiențe memorabile!
         </article>
         <article
           className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
         >
-          Alegand locatia noastra, următorul tău eveniment corporate va fi unul
-          de un real succes.
+          Alegând locația noastră, următorul tău eveniment corporate va deveni
+          un succes de neuitat!
         </article>
       </section>
       <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
@@ -176,18 +177,25 @@ export default function FacilitatiPage() {
       </section>
       <Divider />
       <section className="flex flex-col gap-4">
+        <h1
+          className={clsx(
+            fontSans.className,
+            "text-4xl md:text-7xl font-bold text-center",
+          )}
+        >
+          Teambuilding-ul - Mai mult decât o simplă activitate de relaxare
+        </h1>
         <article
           className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
         >
-          Teambuilding-ul este mai mult decât o simplă activitate de relaxare
-          sau distracție. Activitatea reprezintă o modalitate strategică de a
-          consolida relațiile dintre membrii unei echipe, de a dezvolta
-          încrederea și comunicarea, de a stimula creativitatea și gândirea
-          strategică, și, nu în ultimul rând, de a atinge obiective comune
-          într-un mod mai eficient. Acest proces implică activități variate și
-          provocătoare, menite să încurajeze interacțiunea autentică și să
-          faciliteze învățarea și dezvoltarea personală și profesională a
-          fiecărui membru al echipei.
+          Teambuilding-ul nu este doar o activitate de relaxare sau distracție.
+          Este o modalitate strategică de a consolida relațiile dintre membrii
+          unei echipe, de a dezvolta încrederea și comunicarea, de a stimula
+          creativitatea și gândirea strategică și, nu în ultimul rând, de a
+          atinge obiective comune într-un mod mai eficient. Acest proces implică
+          activități variate și provocatoare, menite să încurajeze interacțiunea
+          autentică și să faciliteze învățarea și dezvoltarea personală și
+          profesională a fiecărui membru al echipei.
         </article>
         <article
           className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
@@ -196,8 +204,8 @@ export default function FacilitatiPage() {
           atingerea scopurilor comune. Prin activitățile și provocările propuse
           în cadrul unui teambuilding, membrii echipei își dezvoltă abilitățile
           de lucru în echipă, își îmbunătățesc capacitatea de a rezolva probleme
-          și de a lua decizii, și dobândesc încredere în abilitățile proprii și
-          în ale celor din jur. Toate aceste aspecte sunt esențiale pentru o
+          și de a lua decizii și dobândesc încredere în abilitățile proprii și
+          în ale colegilor. Toate aceste aspecte sunt esențiale pentru o
           colaborare eficientă și pentru atingerea succesului într-un mediu
           complex și dinamic.
         </article>
@@ -205,16 +213,12 @@ export default function FacilitatiPage() {
           className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
         >
           Un teambuilding bine plănuit și desfășurat într-un loc neconvențional
-          poate fi o experiență transformatoare, ce va rămâne în amintirile și
-          relațiile echipei pentru mult timp.
-        </article>
-        <article
-          className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
-        >
-          Programele de team building care pot avea loc in locatia noastra, sunt
-          menite să introducă participanții în atmosfera de poveste a unor
-          perioade istorice, sau a unor îndeletniciri nemaintâlnite, să creeze
-          experiențe de neuitat printre colegi.
+          poate fi o experiență transformatoare, rămânând în amintirile și
+          relațiile echipei pentru mult timp. Programele de team building
+          organizate în locația noastră sunt menite să introducă participanții
+          în atmosfera de poveste a unor perioade istorice sau a unor
+          îndeletniciri nemaivăzute, creând experiențe de neuitat pentru toți
+          colegii.
         </article>
       </section>
       <Divider />
