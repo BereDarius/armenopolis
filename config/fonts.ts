@@ -4,7 +4,7 @@
 // } from "next/font/google";
 
 import {
-  PT_Serif as FontSerif,
+  Modern_Antiqua as FontSerif,
   PT_Sans_Narrow as FontSans,
 } from "next/font/google";
 
