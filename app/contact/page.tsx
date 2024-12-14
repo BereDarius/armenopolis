@@ -19,6 +19,10 @@ export default function ContactPage() {
         <a className="text-blue-600 hover:underline" href="tel:+40723946272">
           0723946272
         </a>
+        <span className="text-2xl md:text-5xl text-default-600">
+          📆 Program:
+        </span>
+        <span>Luni - Vineri: 8 a.m. - 9 p.m.</span>
         <section className="flex flex-col md:flex-row gap-4">
           <section className="flex flex-col gap-4 md:gap-6">
             <span className="text-2xl md:text-5xl text-default-600">

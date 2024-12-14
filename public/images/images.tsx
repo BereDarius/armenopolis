@@ -12,6 +12,7 @@ import bathroom2 from "./jpeg/bathroom2.jpeg";
 import bathroom3 from "./jpeg/bathroom3.jpeg";
 import bathroom4 from "./jpeg/bathroom4.jpeg";
 import bathroom5 from "./jpeg/bathroom5.jpeg";
+import bathroom6 from "./jpeg/bathroom6.jpg";
 import biliard from "./jpeg/biliard.jpg";
 import bisericaCentru from "./jpeg/biserica-centru.png";
 import bisericaSolomon from "./jpeg/biserica-solomon.png";
@@ -33,7 +34,7 @@ import hallway2 from "./jpeg/hallway2.jpeg";
 import hallway3 from "./jpeg/hallway3.jpeg";
 import homepage from "./jpeg/homepage.jpg";
 import jacuzzi from "./jpeg/jacuzzi.png";
-import karol1 from "./jpeg/karol1.png";
+import karol1 from "./jpeg/karol1.jpg";
 import karol10 from "./jpeg/karol10.png";
 import karol11 from "./jpeg/karol11.png";
 import karol12 from "./jpeg/karol12.png";
@@ -259,92 +260,33 @@ export {
 };
 
 export default [
-  upstairs2,
-  upstairs1,
-
-  entrance4,
-  entrance3,
-  entrance2,
-  entrance1,
-
-  outside1,
-
-  garden3,
-  garden2,
-  garden1,
-
-  main7,
-  main6,
-  main5,
-  main4,
-  main3,
-  main2,
-  main1,
-  lounge2,
-  lounge1,
-
-  room9_1,
-  room8_2,
-  room8_1,
-  room7_4,
-  room7_3,
-  room7_2,
-  room7_1,
-  room6_1,
-  room5_3,
-  room5_2,
-  room5_1,
-  room4_4,
-  room4_3,
-  room4_2,
-  room4_1,
-  room3_2,
-  room3_1,
-  room2_3,
-  room2_2,
-  room2_1,
-  room12_3,
-  room12_2,
-  room12_1,
-  room11_2,
-  room11_1,
-  room10_3,
-  room10_2,
-  room10_1,
-  room1_7,
-  room1_6,
-  room1_5,
-  room1_4,
-  room1_3,
-  room1_2,
-  room1_1,
-
-  kitchen2,
-  kitchen1,
-  restaurant1,
-
-  bathroom5,
-  bathroom4,
-  bathroom3,
-  bathroom2,
-  bathroom1,
-
-  piano2,
-  piano1,
-
-  hallway3,
-  hallway2,
-  hallway1,
-
-  gate2,
-  gate1,
-
-  underground8,
-  underground7,
-  underground6,
-  underground5,
-  underground4,
-  underground3,
-  underground2,
-  underground1,
+  armenopolis2,
+  armenopolis3_1,
+  armenopolis8,
+  armenopolis3_2,
+  armenopolis9,
+  armenopolis5,
+  armenopolis6,
+  jacuzzi,
+  masaj,
+  sauna,
+  karol1,
+  karol2,
+  karol3,
+  karol4,
+  karol5,
+  karol6,
+  karol7,
+  karol9,
+  karol11,
+  karol12,
+  karol13,
+  karol14,
+  karol15,
+  karol16,
+  reginaMaria1,
+  reginaMaria2,
+  reginaMaria3,
+  reginaMaria4,
+  bathroom6,
 ];
