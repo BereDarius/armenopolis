@@ -13,7 +13,7 @@ import {
   muzeu,
   nicula,
   panorama,
-  parc,
+  parc1,
   saratura,
   sinagoga,
   tablou,
@@ -107,7 +107,7 @@ export default function ObiectiveTuristicePage() {
                   alt="Parcul Mare"
                   isBlurred={true}
                   loading="eager"
-                  src={parc.src}
+                  src={parc1.src}
                   width="750"
                 />
                 <span className={(clsx(fontSerif.className), "text-sm")}>

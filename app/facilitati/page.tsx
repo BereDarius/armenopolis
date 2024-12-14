@@ -4,9 +4,16 @@ import clsx from "clsx";
 import { Card, CardBody, CardHeader } from "@nextui-org/card";
 import { Image } from "@nextui-org/image";
 import { Divider } from "@nextui-org/divider";
-import { Tab, Tabs } from "@nextui-org/tabs";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableColumn,
+  TableHeader,
+  TableRow,
+} from "@nextui-org/table";
 
-import { biliard, drumetie, jacuzzi, nicula } from "@/public/images/images";
+import { biliard, jacuzzi, nicula, parc2 } from "@/public/images/images";
 import { fontSans, fontSerif } from "@/config/fonts";
 
 export default function FacilitatiPage() {
@@ -18,7 +25,7 @@ export default function FacilitatiPage() {
           "text-4xl md:text-7xl font-bold text-center",
         )}
       >
-        O locatie ideală pentru Team Building-uri!
+        O locație ideală pentru Team Building-uri!
       </h1>
       <section className="flex flex-col">
         <article
@@ -46,7 +53,7 @@ export default function FacilitatiPage() {
               alt="Card background"
               className="object-cover rounded-xl"
               height={160}
-              src={drumetie.src}
+              src={parc2.src}
               width={270}
             />
           </CardHeader>
@@ -175,6 +182,13 @@ export default function FacilitatiPage() {
           </CardBody>
         </Card>
       </section>
+      <article
+        className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
+      >
+        De asemenea, locația noastră oferă posibilitate de eventiment
+        exclusiviste și selecte, cum ar fi nunți, logodne și ședințe foto,
+        create special pentru persoanele romantice.
+      </article>
       <Divider />
       <section className="flex flex-col gap-4">
         <h1
@@ -183,7 +197,7 @@ export default function FacilitatiPage() {
             "text-4xl md:text-7xl font-bold text-center",
           )}
         >
-          Teambuilding-ul - Mai mult decât o simplă activitate de relaxare
+          Teambuilding-ul - Mai mult decât o simplă activitate de relaxare!
         </h1>
         <article
           className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
@@ -222,85 +236,58 @@ export default function FacilitatiPage() {
         </article>
       </section>
       <Divider />
-      <Tabs placement="start" size="lg">
-        <Tab
-          key="activitati-unice"
-          className="text-xs md:text-xl"
-          title="Activități unice"
-        >
-          <Card className={clsx(fontSerif.className, "text-xs md:text-xl")}>
-            <CardBody>
-              Fiecare locație propune activități unice, combinând relaxarea cu
-              aventura, cultura și exerciții de dezvoltare a echipei.
-            </CardBody>
-          </Card>
-        </Tab>
-        <Tab
-          key="facilitati-vaste"
-          className="text-xs md:text-xl"
-          title="Facilități vaste"
-        >
-          <Card className={clsx(fontSerif.className, "text-xs md:text-xl")}>
-            <CardBody>
-              Cazările variază de la tradițional la modern, cu facilități pentru
-              relaxare, întâlniri corporative și experiențe în aer liber.
-            </CardBody>
-          </Card>
-        </Tab>
-        <Tab
-          key="bogatie-culturala"
-          className="text-xs md:text-xl"
-          title="Bogăție culturală"
-        >
-          <Card className={clsx(fontSerif.className, "text-xs md:text-xl")}>
-            <CardBody>
-              Locațiile Complexului Armenopolis încorporează tradiții românești,
-              oferind o vizionare a patrimoniului local alături de activități de
-              team building.
-            </CardBody>
-          </Card>
-        </Tab>
-        <Tab
-          key="frumusetea-Naturala"
-          className="text-xs md:text-xl"
-          title="Frumusețea Naturală"
-        >
-          <Card className={clsx(fontSerif.className, "text-xs md:text-xl")}>
-            <CardBody>
-              Situate în peisaje naturale impresionante, aceste locații oferă un
-              cadru care îmbunătățește coeziunea echipei și oferă o pauză de la
-              rutină.
-            </CardBody>
-          </Card>
-        </Tab>
-        <Tab
-          key="activitati-spirituale"
-          className="text-xs md:text-xl"
-          title="Activități spirituale de sacroterapie"
-        >
-          <Card className={clsx(fontSerif.className, "text-xs md:text-xl")}>
-            <CardBody>
-              La Hotel Armenopolis se afla Paraclisul Sfintei Cecilia, unde cine
-              doreste, poate sa mediteze la moastele Sfintei care este
-              Ocrotitoarea muzicienilor si ajutatoarea celor ce nu se pot
-              casatorii.
-            </CardBody>
-          </Card>
-        </Tab>
-        <Tab
-          key="experiente-personalizabile"
-          className="text-xs md:text-xl"
-          title="Experiențe personalizabile"
-        >
-          <Card className={clsx(fontSerif.className, "text-xs md:text-xl")}>
-            <CardBody>
-              Locațiile oferă servicii personalizate pentru a se potrivi
-              nevoilor corporative, asigurând un eveniment de team building
-              memorabil și eficient.
-            </CardBody>
-          </Card>
-        </Tab>
-      </Tabs>
+      <Table aria-label="Example static collection table">
+        <TableHeader>
+          <TableColumn>Locație</TableColumn>
+          <TableColumn>Municipiul Gherla, jud. Cluj, România</TableColumn>
+        </TableHeader>
+        <TableBody>
+          <TableRow key="1">
+            <TableCell>Facilități de top</TableCell>
+            <TableCell>
+              <ul>
+                <li>&#x2022; Masă de biliard</li>
+                <li>
+                  &#x2022; Jocuri de societate: cărți, table, șah, scrabble,
+                  rummy, monopoly
+                </li>
+                <li>&#x2022; Xbox</li>
+                <li>&#x2022; Wii: dans și karaoke</li>
+                <li>&#x2022; Jacuzzi și saună</li>
+                <li>&#x2022; Bănci în natură</li>
+                <li>&#x2022; Mic dejun, prânz și cină la comandă</li>
+                <li>&#x2022; Concursuri de gărtit</li>
+                <li>&#x2022; Grătar în aer liber</li>
+                <li>&#x2022; Jocuri în aer liber</li>
+                <li>
+                  &#x2022; Colecție de cărți pe diverse teme și materiale
+                  turistice
+                </li>
+              </ul>
+            </TableCell>
+          </TableRow>
+          <TableRow key="2">
+            <TableCell>Activități disponibile</TableCell>
+            <TableCell>
+              <ul>
+                <li>&#x2022; Drumeții în parc sau în pădure</li>
+                <li>
+                  &#x2022; Sporturi și jocuri: tenis, ping-pong, badminton,
+                  fotbal, baschet
+                </li>
+                <li>
+                  &#x2022; Vizitarea obiectivelor turistice și naturale din
+                  Gherla și împrejurimi
+                </li>
+              </ul>
+            </TableCell>
+          </TableRow>
+          <TableRow key="3">
+            <TableCell>Capacitate maximă cazare</TableCell>
+            <TableCell>16-50 persoane</TableCell>
+          </TableRow>
+        </TableBody>
+      </Table>
     </main>
   );
 }

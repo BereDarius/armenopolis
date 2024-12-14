@@ -6,6 +6,7 @@ import armenopolis4 from "./jpeg/armenopolis4.png";
 import armenopolis5 from "./jpeg/armenopolis5.png";
 import armenopolis6 from "./jpeg/armenopolis6.png";
 import armenopolis7 from "./jpeg/armenopolis7.png";
+import armenopolis9 from "./jpeg/armenopolis9.png";
 import bathroom1 from "./jpeg/bathroom1.jpeg";
 import bathroom2 from "./jpeg/bathroom2.jpeg";
 import bathroom3 from "./jpeg/bathroom3.jpeg";
@@ -40,7 +41,7 @@ import karol13 from "./jpeg/karol13.png";
 import karol14 from "./jpeg/karol14.png";
 import karol15 from "./jpeg/karol15.png";
 import karol16 from "./jpeg/karol16.png";
-import karol2 from "./jpeg/karol2.png";
+import karol2 from "./jpeg/karol2_edit.jpg";
 import karol3 from "./jpeg/karol3.png";
 import karol4 from "./jpeg/karol4.png";
 import karol5 from "./jpeg/karol5.png";
@@ -66,7 +67,8 @@ import muzeu from "./jpeg/muzeu.png";
 import nicula from "./jpeg/nicula.png";
 import outside1 from "./jpeg/outside1.jpeg";
 import panorama from "./jpeg/panorama.png";
-import parc from "./jpeg/parc.png";
+import parc1 from "./jpeg/parc1.png";
+import parc2 from "./jpeg/parc2.jpg";
 import piano1 from "./jpeg/piano1.jpeg";
 import piano2 from "./jpeg/piano2.jpeg";
 import reginaMaria1 from "./jpeg/regina-maria1.png";
@@ -137,6 +139,7 @@ export {
   armenopolis6,
   armenopolis7,
   armenopolis8,
+  armenopolis9,
   bathroom1,
   bathroom2,
   bathroom3,
@@ -196,7 +199,8 @@ export {
   nicula,
   outside1,
   panorama,
-  parc,
+  parc1,
+  parc2,
   piano1,
   piano2,
   reginaMaria1,
