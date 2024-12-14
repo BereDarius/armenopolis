@@ -15,14 +15,14 @@ export default function Home() {
           "text-4xl md:text-7xl font-bold text-center",
         )}
       >
-        Transformă team building-ul într-un eveniment de neuitat!
+        Transformă momentele tale de relaxare într-un eveniment de neuitat!
       </h1>
       <article
-        className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
+        className={clsx(fontSerif.className, "mt-4 text-2xl text-center")}
       >
-        Complexul Armenopolis îmbină aventura cu luxul pentru a oferi experiențe
-        memorabile. Este locul ideal pentru team building-uri, relaxare și
-        descoperirea patrimoniului cultural din Gherla.
+        <strong>Complexul Hotelier Armenopolis</strong>, cunoscut și sub numele
+        de &quot;micul Brukenthal&quot;, aduce la viață povestea istorică,
+        transformând-o într-o experiență memorabilă și de neuitat.
       </article>
       <section className="flex flex-row justify-center md:justify-start gap-4">
         <Button
@@ -51,7 +51,7 @@ export default function Home() {
         isBlurred={true}
         loading="eager"
         src={homepage.src}
-        width="750"
+        width="1000"
       />
     </main>
   );

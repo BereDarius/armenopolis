@@ -48,45 +48,45 @@ export const siteConfig = {
   ],
   navItems: [
     {
-      label: "Acasă",
+      label: "ACASĂ",
       href: "/",
     },
     {
-      label: "Despre noi",
+      label: "DESPRE NOI",
       href: "/despre-noi",
     },
     {
-      label: "Servicii",
+      label: "SERVICII",
       href: "/facilitati",
     },
     {
-      label: "Galerie",
+      label: "GALERIE",
       href: "/galerie",
     },
     {
-      label: "Obiective turistice",
+      label: "OBIECTIVE TURISTICE",
       href: "/obiective-turistice",
     },
   ],
   navMenuItems: [
     {
-      label: "Acasă",
+      label: "ACASĂ",
       href: "/",
     },
     {
-      label: "Despre noi",
+      label: "DESPRE NOI",
       href: "/despre-noi",
     },
     {
-      label: "Servicii",
+      label: "SERVICII",
       href: "/facilitati",
     },
     {
-      label: "Galerie",
+      label: "GALERIE",
       href: "/galerie",
     },
     {
-      label: "Obiective turistice",
+      label: "OBIECTIVE TURISTICE",
       href: "/obiective-turistice",
     },
   ],

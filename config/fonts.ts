@@ -4,8 +4,8 @@
 // } from "next/font/google";
 
 import {
-  Modern_Antiqua as FontSerif,
-  PT_Sans_Narrow as FontSans,
+  Vollkorn as FontSerif,
+  Old_Standard_TT as FontSans,
 } from "next/font/google";
 
 export const fontSans = FontSans({
@@ -20,4 +20,5 @@ export const fontSerif = FontSerif({
   weight: "400",
   display: "swap",
   fallback: ["Georgia", "serif"],
+  style: "italic",
 });

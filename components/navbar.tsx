@@ -38,7 +38,9 @@ export const Navbar = () => {
         />
         <NavbarBrand>
           <NextLink href="/">
-            <p className="font-bold text-xl">Complex Hotelier Armenopolis</p>
+            <p className="font-bold text-sm md:text-2xl">
+              Complex Hotelier Armenopolis
+            </p>
           </NextLink>
         </NavbarBrand>
       </NavbarContent>
@@ -51,6 +53,7 @@ export const Navbar = () => {
                 linkStyles({
                   color: "foreground",
                   underline: pathname === item.href ? "always" : "hover",
+                  size: "sm",
                 }),
               )}
               href={item.href}
