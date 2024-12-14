@@ -1,5 +1,6 @@
 import clsx from "clsx";
 import { Image } from "@nextui-org/image";
+import { Divider } from "@nextui-org/divider";
 
 import { fontSans, fontSerif } from "@/config/fonts";
 import {
@@ -13,7 +14,7 @@ import {
   muzeu,
   nicula,
   panorama,
-  parc1,
+  parc2,
   saratura,
   sinagoga,
   tablou,
@@ -28,7 +29,7 @@ export default function ObiectiveTuristicePage() {
           "text-4xl md:text-7xl font-bold text-center",
         )}
       >
-        Obiective turistice și naturale pe care le puteți vizita în Gherla
+        Atracții turistice și naturale din Gherla
       </h1>
       <div className="flex flex-col gap-2">
         <Image
@@ -48,6 +49,16 @@ export default function ObiectiveTuristicePage() {
           </a>
         </span>
       </div>
+      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
+        Gherla este un oraș fascinant din punct de vedere turistic, deși încă
+        puțin cunoscut. Construit în stil baroc, orașul a fost înființat de
+        armeni în secolul al XVIII-lea, primind numele de Armenopolis.
+        <br />
+        <br /> Gherla este singurul oraș din România construit conform unui plan
+        prestabilit, păstrat până în prezent. Dominanța stilului baroc se
+        datorează fondării orașului de către coloniștii armeni veniți din
+        Moldova, la inițiativa și cu permisiunea Curții Imperiale de la Viena.
+      </article>
       <section className={clsx(fontSerif.className, "mt-4 text-xl")}>
         <article>
           Gherla oferă o varietate de obiective turistice și naturale care
@@ -107,16 +118,16 @@ export default function ObiectiveTuristicePage() {
                   alt="Parcul Mare"
                   isBlurred={true}
                   loading="eager"
-                  src={parc1.src}
+                  src={parc2.src}
                   width="750"
                 />
                 <span className={(clsx(fontSerif.className), "text-sm")}>
                   Parcul Mare. Foto:{" "}
                   <a
                     className="text-blue-500 underline"
-                    href="https://ziarulfaclia.ro/parcul-mare-din-gherla-se-reinnoieste/"
+                    href="https://www.gherlainfo.ro/cele-trei-gratii-din-parcul-mare-din-gherla-au-revenit-la-locul-lor/"
                   >
-                    ziarulfaclia.ro
+                    gherlainfo.ro
                   </a>
                 </span>
               </div>
@@ -165,10 +176,6 @@ export default function ObiectiveTuristicePage() {
                 </span>
               </div>
             </li>
-            <li>
-              <strong>&#x2022; Stațiunea Băile Băița</strong>: Un spa perfect
-              pentru relaxare și odihnă
-            </li>
           </ul>
         </article>
         <article>
@@ -176,18 +183,7 @@ export default function ObiectiveTuristicePage() {
           Gherla, un oraș plin de istorie și frumusețe naturală.
         </article>
       </section>
-
-      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Gherla este un oraș fascinant din punct de vedere turistic, deși încă
-        puțin cunoscut. Construit în stil baroc, orașul a fost înființat de
-        armeni în secolul al XVIII-lea, primind numele de Armenopolis.
-      </article>
-      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Gherla este singurul oraș din România construit conform unui plan
-        prestabilit, păstrat până în prezent. Dominanța stilului baroc se
-        datorează fondării orașului de către coloniștii armeni veniți din
-        Moldova, la inițiativa și cu permisiunea Curții Imperiale de la Viena.
-      </article>
+      <Divider />
       <div className="flex flex-col gap-2">
         <Image
           alt="Casă armeneasca"
