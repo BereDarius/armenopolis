@@ -52,20 +52,20 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Facilități",
-      href: "/facilitati",
+      label: "Despre noi",
+      href: "/despre-noi",
     },
     {
-      label: "Obiective turistice",
-      href: "/obiective-turistice",
+      label: "Servicii",
+      href: "/facilitati",
     },
     {
       label: "Galerie",
       href: "/galerie",
     },
     {
-      label: "Despre noi",
-      href: "/despre-noi",
+      label: "Obiective turistice",
+      href: "/obiective-turistice",
     },
   ],
   navMenuItems: [
@@ -74,20 +74,20 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Facilități",
-      href: "/facilitati",
+      label: "Despre noi",
+      href: "/despre-noi",
     },
     {
-      label: "Obiective turistice",
-      href: "/obiective-turistice",
+      label: "Servicii",
+      href: "/facilitati",
     },
     {
       label: "Galerie",
       href: "/galerie",
     },
     {
-      label: "Despre noi",
-      href: "/despre-noi",
+      label: "Obiective turistice",
+      href: "/obiective-turistice",
     },
   ],
   links: {
