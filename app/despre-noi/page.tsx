@@ -58,7 +58,7 @@ export default function DespreNoiPage() {
           </article>
         </section>
       </section>
-      <section className="grid grid-cols-3 gap-4">
+      <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <Card className="py-4">
           <CardHeader className="pt-2 px-4 flex-col items-center">
             <Image
