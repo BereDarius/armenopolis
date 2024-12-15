@@ -34,7 +34,7 @@ export const Navbar = () => {
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Close menu" : "Open menu"}
-          className="md:hidden"
+          className="lg:hidden"
         />
         <NavbarBrand>
           <NextLink href="/">
@@ -45,7 +45,7 @@ export const Navbar = () => {
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="hidden md:flex gap-4" justify="center">
+      <NavbarContent className="hidden lg:flex gap-4" justify="center">
         {siteConfig.navItems.map((item) => (
           <NavbarItem key={item.href}>
             <NextLink
