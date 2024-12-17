@@ -176,14 +176,6 @@ export default function DespreNoiPage() {
         într-un cadru de poveste.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Construită în 1762 de o familie armeană, casa este situată pe strada
-        principală a orașului, aproape de kilometrul 0 al localității. Inițial
-        destinată ca locuință, casa a fost vândută în jurul anului 1800 unei
-        familii evreiești, devenind o școală evreiască. Ulterior, după venirea
-        regimului comunist, casa a fost naționalizată și a funcționat ca sediu
-        UCECOM din Gherla.
-      </article>
-      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
         De doi ani, Hotel Armenopolis continuă să aducă la viață istoria
         fascinantă a orașului, oferind o experiență de neuitat pentru toți cei
         care îi trec pragul.
@@ -335,13 +327,18 @@ export default function DespreNoiPage() {
         Hotel Karol
       </h1>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Locația noastră, încărcată de istorie și eleganță, oferă un cadru de
-        poveste perfect pentru organizarea de ședințe foto. Cu mobilierul său
-        baroc din 1767 și atmosfera rafinată, pensiunea reprezintă o alegere
-        ideală pentru sesiuni foto ce vor captiva prin stilul clasic și
-        detaliile opulente ale epocii. Aceasta îmbină atmosfera de poveste cu
-        specificul istoric al pensiunii și accentuează unicitatea locului.
+        Hotelul Karol, cu o istorie ce datează din 1767, este o locație
+        încărcată de eleganță și rafinament. Oferim un cadru de poveste perfect
+        pentru ședințe foto. <br />
+        Cu mobilierul său baroc și atmosfera sa rafinată, hotelul nostru
+        reprezintă o alegere ideală ce va captiva prin combinația de stil clasic
+        și modern și prin detaliile opulente ale epocii.
+        <br />
+        <br />
+        Aceasta îmbină atmosfera de poveste cu specificul istoric al hotelului
+        și accentuează unicitatea locului.
       </article>
+
       <div className="flex flex-col gap-2">
         <Image
           alt="Intrarea Hotelului Karol"

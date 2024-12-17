@@ -22,10 +22,10 @@ export default function FacilitatiPage() {
       <h1
         className={clsx(
           fontSans.className,
-          "text-4xl md:text-7xl font-bold text-center",
+          "text-4xl md:text-6xl font-bold text-center",
         )}
       >
-        O locație ideală pentru Team Building-uri!
+        O locație ideală pentru Teambuilding-uri!
       </h1>
       <section className="flex flex-col">
         <article
@@ -194,7 +194,7 @@ export default function FacilitatiPage() {
         <h1
           className={clsx(
             fontSans.className,
-            "text-4xl md:text-7xl font-bold text-center",
+            "text-4xl md:text-6xl font-bold text-center",
           )}
         >
           Teambuilding-ul - Mai mult decât o simplă activitate de relaxare!
