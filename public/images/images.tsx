@@ -65,6 +65,7 @@ import main7 from "./jpeg/main7.jpeg";
 import manastireaSf40 from "./jpeg/manastirea-sf-40.png";
 import masaj from "./jpeg/masaj.png";
 import muzeu from "./jpeg/muzeu.png";
+import muzeu2 from "./jpeg/muzeu2.jpg";
 import nicula from "./jpeg/nicula.png";
 import outside1 from "./jpeg/outside1.jpeg";
 import panorama from "./jpeg/panorama.png";
@@ -197,6 +198,7 @@ export {
   main7,
   manastireaSf40,
   muzeu,
+  muzeu2,
   nicula,
   outside1,
   panorama,

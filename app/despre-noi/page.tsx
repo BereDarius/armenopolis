@@ -108,8 +108,8 @@ export default function DespreNoiPage() {
             <small
               className={clsx(fontSerif.className, "text-default-500 text-lg")}
             >
-              Un hotel modern, ce combină confortul contemporan cu rafinamentul
-              clasic, ideal pentru călătorii de afaceri si turiști.
+              Un hotel elegant, care îmbină confortul cu farmecul clasic,
+              perfect atât pentru călătorii de afaceri, cât și pentru turiști.
             </small>
           </CardBody>
         </Card>
@@ -136,7 +136,7 @@ export default function DespreNoiPage() {
               className={clsx(fontSerif.className, "text-default-500 text-lg")}
             >
               O casă tradițională românească, ce oferă o atmosferă caldă și
-              primitoare, perfectă perntru o evadare romantică sau o vacanță în
+              primitoare, perfectă pentru o evadare romantică sau o vacanță în
               familie.
             </small>
           </CardBody>
@@ -162,9 +162,9 @@ export default function DespreNoiPage() {
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
         Hotel Armenopolis este o casă istorică armeană din 1762, transformată
-        într-o oază barocă de relaxare în Gherla. Situată în centrul orașului,
-        această reședință plină de istorie întâmpină vizitatorii cu un aer boem,
-        cu bolte elegante, un pian la intrare și mobilier din lemn masiv, ce
+        într-o oază barocă de relaxare. Situată în centrul orașului, această
+        reședință plină de istorie întâmpină vizitatorii cu un aer boem, cu
+        bolte elegante, un pian la intrare și mobilier din lemn masiv, ce
         recreează farmecul epocilor trecute. Inițial locuință a unei familii
         armene, a fost vândută în jurul anului 1800 și transformată într-o
         școală evreiască, iar ulterior a devenit sediu UCECOM. De doi ani, Hotel

@@ -228,7 +228,7 @@ export default function FacilitatiPage() {
         >
           Un teambuilding bine plănuit și desfășurat într-un loc neconvențional
           poate fi o experiență transformatoare, rămânând în amintirile și
-          relațiile echipei pentru mult timp. Programele de team building
+          relațiile echipei pentru mult timp. Programele de teambuilding
           organizate în locația noastră sunt menite să introducă participanții
           în atmosfera de poveste a unor perioade istorice sau a unor
           îndeletniciri nemaivăzute, creând experiențe de neuitat pentru toți

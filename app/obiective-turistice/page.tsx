@@ -12,6 +12,7 @@ import {
   laculStiucilor,
   manastireaSf40,
   muzeu,
+  muzeu2,
   nicula,
   panorama,
   parc2,
@@ -309,6 +310,24 @@ export default function ObiectiveTuristicePage() {
       >
         Centrul Muzeal de Istorie Gherla
       </h1>
+      <div className="flex flex-col gap-2">
+        <Image
+          alt="Centrul Muzeal de Istorie Gherla"
+          isBlurred={true}
+          loading="eager"
+          src={muzeu2.src}
+          width="750"
+        />
+        <span className={clsx(fontSerif.className)}>
+          Centrul Muzeal de Istorie Gherla. Foto:{" "}
+          <a
+            className="text-blue-500 underline"
+            href="https://www.facebook.com/CentrulMuzealdeIstorieGherla?locale=ro_RO"
+          >
+            Centrul Muzeal de Istorie Gherla - Facebook
+          </a>
+        </span>
+      </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
         Muzeul de Istorie din Gherla funcționează într-o clădire istorică
         restaurată, cunoscută sub numele de „Casa Laszloffy”, care a fost
