@@ -7,6 +7,14 @@ import armenopolis5 from "./jpeg/armenopolis5.png";
 import armenopolis6 from "./jpeg/armenopolis6.png";
 import armenopolis7 from "./jpeg/armenopolis7.png";
 import armenopolis9 from "./jpeg/armenopolis9.png";
+import armenopolisCamera from "./jpeg/armenopolis-camera.jpg";
+import armenopolisCamera2 from "./jpeg/armenopolis-camera2.jpg";
+import armenopolisCameraEtaj from "./jpeg/armenopolis-camera-etaj.jpg";
+import armenopolisCameraEtaj2 from "./jpeg/armenopolis-camera-etaj2.jpg";
+import armenopolisCameraEtaj3 from "./jpeg/armenopolis-camera-etaj3.jpg";
+import armenopolisCameraEtaj4 from "./jpeg/armenopolis-camera-etaj4.jpg";
+import armenopolisCameraEtaj5 from "./jpeg/armenopolis-camera-etaj5.jpg";
+import armenopolisCameraEtaj6 from "./jpeg/armenopolis-camera-etaj6.jpg";
 import bathroom1 from "./jpeg/bathroom1.jpeg";
 import bathroom2 from "./jpeg/bathroom2.jpeg";
 import bathroom3 from "./jpeg/bathroom3.jpeg";
@@ -130,6 +138,14 @@ import armenopolis8 from "./jpeg/armenopolis8.png";
 import sauna from "./jpeg/sauna.png";
 
 export {
+  armenopolisCamera,
+  armenopolisCamera2,
+  armenopolisCameraEtaj,
+  armenopolisCameraEtaj2,
+  armenopolisCameraEtaj3,
+  armenopolisCameraEtaj4,
+  armenopolisCameraEtaj5,
+  armenopolisCameraEtaj6,
   sauna,
   masaj,
   armenopolis1,
@@ -266,7 +282,15 @@ export default [
   armenopolis3_1,
   armenopolis8,
   armenopolis3_2,
+  armenopolisCamera,
+  armenopolisCamera2,
   armenopolis9,
+  armenopolisCameraEtaj,
+  armenopolisCameraEtaj2,
+  armenopolisCameraEtaj3,
+  armenopolisCameraEtaj4,
+  armenopolisCameraEtaj5,
+  armenopolisCameraEtaj6,
   armenopolis5,
   armenopolis6,
   jacuzzi,

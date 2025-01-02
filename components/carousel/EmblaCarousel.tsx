@@ -54,7 +54,6 @@ const EmblaCarousel: React.FC = () => {
           <PrevButton disabled={prevBtnDisabled} onClick={onPrevButtonClick} />
           <NextButton disabled={nextBtnDisabled} onClick={onNextButtonClick} />
         </div>
-
         <SelectedSnapDisplay
           selectedSnap={selectedSnap}
           snapCount={snapCount}

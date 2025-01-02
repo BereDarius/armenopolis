@@ -185,9 +185,9 @@ export default function FacilitatiPage() {
       <article
         className={clsx(fontSerif.className, "mt-4 text-xl text-center")}
       >
-        De asemenea, locația noastră oferă posibilitate de eventiment
-        exclusiviste și selecte, cum ar fi nunți, logodne și ședințe foto,
-        create special pentru persoanele romantice.
+        De asemenea, locația noastră oferă posibilitatea de a organiza
+        evenimente exclusiviste și selecte, cum ar fi nunți, logodne și ședințe
+        foto, create special pentru persoanele romantice.
       </article>
       <Divider />
       <section className="flex flex-col gap-4">
@@ -256,7 +256,6 @@ export default function FacilitatiPage() {
                 <li>&#x2022; Jacuzzi și saună</li>
                 <li>&#x2022; Bănci în natură</li>
                 <li>&#x2022; Mic dejun, prânz și cină la comandă</li>
-                <li>&#x2022; Concursuri de gărtit</li>
                 <li>&#x2022; Grătar în aer liber</li>
                 <li>&#x2022; Jocuri în aer liber</li>
                 <li>

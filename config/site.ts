@@ -17,7 +17,7 @@ export const siteConfig = {
     "evenimente corporate România",
     "hotel Armenopolis",
     "hotel Karol Gherla",
-    "Casa Regina Maria Gherla",
+    "Micul Palat Regina Maria Gherla",
     "hoteluri armenești Transilvania",
     "catedrala armeano-catolică Gherla",
     "Biserica Solomon",

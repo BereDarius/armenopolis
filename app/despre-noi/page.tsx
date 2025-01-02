@@ -11,6 +11,8 @@ import {
   armenopolis6,
   armenopolis8,
   armenopolis9,
+  armenopolisCamera,
+  armenopolisCamera2,
   jacuzzi,
   karol1,
   karol11,
@@ -81,7 +83,7 @@ export default function DespreNoiPage() {
             <small
               className={clsx(fontSerif.className, "text-default-500 text-lg")}
             >
-              Reședință armeană de epocă, care datează din 1762, transformănd
+              Reședință armeană de epocă, care datează din 1762, transformând
               farmecul baroc într-o oază de relaxare.
             </small>
           </CardBody>
@@ -116,7 +118,7 @@ export default function DespreNoiPage() {
         <Card className="py-4">
           <CardHeader className="pt-2 px-8 flex-col items-center">
             <Image
-              alt="Casa Regina Maria"
+              alt="Micul Palat Regina Maria"
               className="object-cover rounded-xl"
               height={200}
               src={reginaMaria4.src}
@@ -130,12 +132,12 @@ export default function DespreNoiPage() {
                 "text-2xl uppercase font-bold",
               )}
             >
-              Casa Regina Maria
+              Micul Palat Regina Maria
             </p>
             <small
               className={clsx(fontSerif.className, "text-default-500 text-lg")}
             >
-              O casă tradițională românească, ce oferă o atmosferă caldă și
+              O locație tradițională românească, ce oferă o atmosferă caldă și
               primitoare, perfectă pentru o evadare romantică sau o vacanță în
               familie.
             </small>
@@ -167,18 +169,16 @@ export default function DespreNoiPage() {
         bolte elegante, un pian la intrare și mobilier din lemn masiv, ce
         recreează farmecul epocilor trecute. Inițial locuință a unei familii
         armene, a fost vândută în jurul anului 1800 și transformată într-o
-        școală evreiască, iar ulterior a devenit sediu UCECOM. De doi ani, Hotel
-        Armenopolis aduce la viață istoria orașului, oferind o experiență de
-        neuitat tuturor vizitatorilor.
+        școală evreiască.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
         De asemenea, locația este ideală pentru organizare de ședințe foto
         într-un cadru de poveste.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        De doi ani, Hotel Armenopolis continuă să aducă la viață istoria
-        fascinantă a orașului, oferind o experiență de neuitat pentru toți cei
-        care îi trec pragul.
+        Hotel Armenopolis continuă să aducă la viață istoria fascinantă a
+        orașului, oferind o experiență de neuitat pentru toți cei care îi trec
+        pragul.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -222,6 +222,30 @@ export default function DespreNoiPage() {
       </article>
       <div className="flex flex-col gap-2">
         <Image
+          alt="Hotel Armenopolis, Gherla - Camera părintelui"
+          isBlurred={true}
+          loading="eager"
+          src={armenopolisCamera2.src}
+          width="750"
+        />
+        <span className={clsx(fontSerif.className)}>
+          Hotel Armenopolis, Gherla - Camera părintelui
+        </span>
+      </div>
+      <div className="flex flex-col gap-2">
+        <Image
+          alt="Hotel Armenopolis, Gherla - Cameră dublă în stil baroc"
+          isBlurred={true}
+          loading="eager"
+          src={armenopolisCamera.src}
+          width="750"
+        />
+        <span className={clsx(fontSerif.className)}>
+          Hotel Armenopolis, Gherla - Cameră dublă în stil baroc
+        </span>
+      </div>
+      <div className="flex flex-col gap-2">
+        <Image
           alt="Hotel Armenopolis, Gherla - Cameră dublă în stil baroc"
           isBlurred={true}
           loading="eager"
@@ -233,13 +257,12 @@ export default function DespreNoiPage() {
         </span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Casa armenească de la 1762 oferă acum turiștilor patru camere duble cu
-        pat matrimonial și opt camere single, combinând confortul modern cu
-        farmecul istoric.
+        Hotelul oferă acum turiștilor patru camere duble cu pat matrimonial și
+        opt camere single, combinând confortul modern cu farmecul istoric.
         <br />
-        <br /> Pe lângă serviciile hoteliere, hotelul oferă și servicii de
-        sacroterapie, benefice pentru surmenaj, stres și depășirea momentelor
-        dificile din viața fiecărei persoane.
+        <br /> Pe lângă serviciile hoteliere, pot fi oferite celor care doresc
+        și servicii de sacroterapie, benefice pentru surmenaj, stres și
+        depășirea momentelor dificile din viața fiecărei persoane.
         <br />
         <br /> Unitatea deține un Paraclis al Sfintei Cecilia, unde cine dorește
         se poate ruga la Racla Sfintei.
@@ -277,8 +300,8 @@ export default function DespreNoiPage() {
         servește micul dejun a fost declarată cea mai frumoasă boltă din Gherla.
       </article>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Zona de SPA vă oferă posibilitatea de a petrece timp în jacuzzi, saună
-        și, la cerere, să beneficiați de sesiuni de relaxare.
+        Zona de SPA vă oferă posibilitatea de a beneficia de sesiuni de
+        relaxare, cum ar fi: jacuzzi, saună și masaj.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -305,8 +328,8 @@ export default function DespreNoiPage() {
         <span className={clsx(fontSerif.className)}>Masă de masaj</span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Saună Relaxantă: Experiența supremă de relaxare vă așteaptă în sauna
-        noastră modernă.
+        Saună Relaxantă: Experiența de relaxare vă așteaptă în sauna noastră
+        modernă.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -380,7 +403,7 @@ export default function DespreNoiPage() {
           alt="Dormitor cu pat dublu - Camera Regelui"
           isBlurred={true}
           loading="eager"
-          src={karol4.src}
+          src={karol5.src}
           width="750"
         />
         <span className={clsx(fontSerif.className)}>
@@ -392,7 +415,7 @@ export default function DespreNoiPage() {
           alt="Dormitor Deluxe"
           isBlurred={true}
           loading="eager"
-          src={karol5.src}
+          src={karol4.src}
           width="750"
         />
         <span className={clsx(fontSerif.className)}>Dormitor Deluxe</span>
@@ -538,7 +561,7 @@ export default function DespreNoiPage() {
           "text-4xl md:text-7xl font-bold text-center",
         )}
       >
-        Casa Regina Maria
+        Micul Palat Regina Maria
       </h1>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
         În această locație, oferim servicii de cazare și mic dejun, asigurând
