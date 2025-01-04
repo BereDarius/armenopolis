@@ -356,16 +356,6 @@ export default function DespreNoiPage() {
           <span>&#x2022; Masaj:</span>
           <strong className="mx-6">100 RON / 30 minute</strong>
         </article>
-        {/* <ul>
-          <li className="mx-6">
-            &#x2022; Jacuzzi + saună:{" "}
-            <strong className="mx-6">100 RON / zi</strong>
-          </li>
-          <li className="mx-6">
-            &#x2022; Masaj:{" "}
-            <strong className="mx-6">100 RON / 30 minute</strong>
-          </li>
-        </ul> */}
       </article>
       <h1
         className={clsx(
