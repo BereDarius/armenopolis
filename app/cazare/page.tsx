@@ -14,7 +14,6 @@ import {
   karol5,
   karol6,
   karol8,
-  parc2,
   reginaMariaCamera,
   room12_1,
   room3_1,
@@ -29,6 +28,14 @@ export default function CazarePage() {
         className={clsx(
           fontSans.className,
           "text-4xl md:text-6xl font-bold text-center",
+        )}
+      >
+        Opțiuni de cazare
+      </h1>
+      <h1
+        className={clsx(
+          fontSans.className,
+          "text-xl md:text-4xl font-bold text-center",
         )}
       >
         Hotel Armenopolis
@@ -113,7 +120,7 @@ export default function CazarePage() {
       <h1
         className={clsx(
           fontSans.className,
-          "text-4xl md:text-6xl font-bold text-center",
+          "text-xl md:text-4xl font-bold text-center",
         )}
       >
         Hotel Karol
@@ -383,7 +390,7 @@ export default function CazarePage() {
       <h1
         className={clsx(
           fontSans.className,
-          "text-4xl md:text-6xl font-bold text-center",
+          "text-xl md:text-4xl font-bold text-center",
         )}
       >
         Micul Palat Regina Maria
