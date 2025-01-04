@@ -347,6 +347,26 @@ export default function DespreNoiPage() {
         />
         <span className={clsx(fontSerif.className)}>Saună pentru relaxare</span>
       </div>
+      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
+        Serviciile Spa se oferă de la minim 4 persoane, având următorele tarife:{" "}
+        <br />
+        <article className="grid grid-cols-2 p-4">
+          <span>&#x2022; Jacuzzi + saună:</span>
+          <strong className="mx-6">100 RON / zi</strong>
+          <span>&#x2022; Masaj:</span>
+          <strong className="mx-6">100 RON / 30 minute</strong>
+        </article>
+        {/* <ul>
+          <li className="mx-6">
+            &#x2022; Jacuzzi + saună:{" "}
+            <strong className="mx-6">100 RON / zi</strong>
+          </li>
+          <li className="mx-6">
+            &#x2022; Masaj:{" "}
+            <strong className="mx-6">100 RON / 30 minute</strong>
+          </li>
+        </ul> */}
+      </article>
       <h1
         className={clsx(
           fontSans.className,
