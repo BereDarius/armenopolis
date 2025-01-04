@@ -163,22 +163,28 @@ export default function DespreNoiPage() {
         <span className={clsx(fontSerif.className)}>Hotel Armenopolis</span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Hotel Armenopolis este o casă istorică armeană din 1762, transformată
-        într-o oază barocă de relaxare. Situată în centrul orașului, această
-        reședință plină de istorie întâmpină vizitatorii cu un aer boem, cu
-        bolte elegante, un pian la intrare și mobilier din lemn masiv, ce
-        recreează farmecul epocilor trecute. Inițial locuință a unei familii
-        armene, a fost vândută în jurul anului 1800 și transformată într-o
-        școală evreiască.
-      </article>
-      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        De asemenea, locația este ideală pentru organizare de ședințe foto
-        într-un cadru de poveste.
-      </article>
-      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Hotel Armenopolis continuă să aducă la viață istoria fascinantă a
-        orașului, oferind o experiență de neuitat pentru toți cei care îi trec
-        pragul.
+        Amenajat într-o casă armenească din 1762, Hotelul Armenopolis este o
+        oază barocă de relaxare, situată în centrul orașului Gherla, la doar 45
+        km de Cluj-Napoca și Aeroportul Internațional Avram Iancu. Această
+        reședință istorică, inițial locuință a unei familii armene, a fost
+        transformată ulterior într-o școală evreiască și păstrează farmecul
+        epocilor trecute prin arhitectura sa elegantă, bolțile rafinate și
+        mobilierul din lemn masiv.
+        <br />
+        <br />
+        Cu 12 camere confortabile, dintre care 4 duble și 8 single, Armenopolis
+        îmbină armonios spiritul baroc al secolului XVIII cu dotările moderne.
+        Micul dejun bogat și variat este servit într-un living decorat cu
+        obiecte de colecție de la începutul anilor 1900, iar pentru momente de
+        relaxare sau socializare, crama medievală păstrată intactă din anul
+        1762, cu o capacitate de 30 de locuri, oferă cadrul perfect pentru
+        degustarea vinurilor alese.
+        <br />
+        <br />
+        Hotel Armenopolis nu este doar o destinație de cazare, ci și un loc
+        ideal pentru organizarea ședințelor foto într-un decor de poveste. În
+        fiecare colț al său, istoria fascinantă a orașului Gherla prinde viață,
+        oferind o experiență de neuitat tuturor vizitatorilor.
       </article>
       <div className="flex flex-col gap-2">
         <Image

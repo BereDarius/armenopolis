@@ -22,10 +22,10 @@ export default function ContactPage() {
         </span>
         <Link
           className="text-blue-600 hover:underline text-xl"
-          href="tel:+40721120120"
+          href="tel:+40723946272"
           isExternal={true}
         >
-          0721120120
+          +40 723 946 272
         </Link>
         <span className="text-2xl md:text-5xl text-default-600">
           📆 Program:

@@ -85,6 +85,7 @@ import reginaMaria1 from "./jpeg/regina-maria1.png";
 import reginaMaria2 from "./jpeg/regina-maria2.png";
 import reginaMaria3 from "./jpeg/regina-maria3.png";
 import reginaMaria4 from "./jpeg/regina-maria4.png";
+import reginaMariaCamera from "./jpeg/regina-maria-camera.jpg";
 import restaurant1 from "./jpeg/restaurant1.jpeg";
 import room1_1 from "./jpeg/room1_1.jpeg";
 import room1_2 from "./jpeg/room1_2.jpeg";
@@ -226,6 +227,7 @@ export {
   reginaMaria2,
   reginaMaria3,
   reginaMaria4,
+  reginaMariaCamera,
   restaurant1,
   room1_1,
   room1_2,

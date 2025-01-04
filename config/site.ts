@@ -56,6 +56,10 @@ export const siteConfig = {
       href: "/despre-noi",
     },
     {
+      label: "CAZARE",
+      href: "/cazare",
+    },
+    {
       label: "SERVICII",
       href: "/facilitati",
     },
@@ -76,6 +80,10 @@ export const siteConfig = {
     {
       label: "DESPRE NOI",
       href: "/despre-noi",
+    },
+    {
+      label: "CAZARE",
+      href: "/cazare",
     },
     {
       label: "SERVICII",
