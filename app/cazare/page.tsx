@@ -11,8 +11,6 @@ import {
   armenopolisCamera,
   armenopolisCamera2,
   armenopolisCameraEtaj,
-  armenopolisCameraEtaj2,
-  armenopolisCameraEtaj3,
   karol4,
   karol5,
   karol6,
