@@ -8,7 +8,10 @@ import { Button } from "@nextui-org/button";
 import Link from "next/link";
 
 import {
+  armenopolisCamera,
   armenopolisCamera2,
+  armenopolisCameraEtaj,
+  armenopolisCameraEtaj2,
   armenopolisCameraEtaj3,
   karol4,
   karol5,
@@ -47,239 +50,6 @@ export default function CazarePage() {
               alt="Camera single"
               className="object-cover rounded-xl"
               height={160}
-              src={armenopolisCameraEtaj3.src}
-              width={270}
-            />
-          </CardHeader>
-          <CardBody className="overflow-visible py-2 gap-4">
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-3xl uppercase font-bold",
-              )}
-            >
-              70 EURO / 350 RON
-            </p>
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-xl text-default-500 uppercase font-bold",
-              )}
-            >
-              CAMERĂ SINGLE
-            </p>
-            <Button
-              as={Link}
-              className="text-lg font-normal text-default-600 bg-default-100"
-              href="/contact"
-              variant="flat"
-            >
-              Rezervă acum &rarr;
-            </Button>
-          </CardBody>
-        </Card>
-        <Card className="py-4 w-96">
-          <CardHeader className="pt-2 px-4 flex-col items-center">
-            <Image
-              alt="Camera dubla"
-              className="object-cover rounded-xl"
-              height={160}
-              src={armenopolisCamera2.src}
-              width={270}
-            />
-          </CardHeader>
-          <CardBody className="overflow-visible py-2 gap-4">
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-3xl uppercase font-bold",
-              )}
-            >
-              90 EURO / 450 RON
-            </p>
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-xl text-default-500 uppercase font-bold",
-              )}
-            >
-              CAMERĂ DUBLĂ
-            </p>
-            <Button
-              as={Link}
-              className="text-lg font-normal text-default-600 bg-default-100"
-              href="/contact"
-              variant="flat"
-            >
-              Rezervă acum &rarr;
-            </Button>
-          </CardBody>
-        </Card>
-      </section>
-      <Divider />
-      <h1
-        className={clsx(
-          fontSans.className,
-          "text-xl md:text-4xl font-bold text-center",
-        )}
-      >
-        Hotel Karol
-      </h1>
-      <section className="flex justify-center gap-4 flex-wrap">
-        <Card className="py-4 w-96">
-          <CardHeader className="pt-2 px-4 flex-col items-center">
-            <Image
-              alt="Camera Regelui"
-              className="object-cover rounded-xl"
-              height={160}
-              src={karol5.src}
-              width={270}
-            />
-          </CardHeader>
-          <CardBody className="overflow-visible py-2 gap-4">
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-3xl uppercase font-bold",
-              )}
-            >
-              150 EURO / 750 RON
-            </p>
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-xl text-default-500 uppercase font-bold",
-              )}
-            >
-              CAMERA REGELUI
-            </p>
-            <Button
-              as={Link}
-              className="text-lg font-normal text-default-600 bg-default-100"
-              href="/contact"
-              variant="flat"
-            >
-              Rezervă acum &rarr;
-            </Button>
-          </CardBody>
-        </Card>
-        <Card className="py-4 w-96">
-          <CardHeader className="pt-2 px-4 flex-col items-center">
-            <Image
-              alt="Camera Reginei"
-              className="object-cover rounded-xl"
-              height={160}
-              src={karol6.src}
-              width={270}
-            />
-          </CardHeader>
-          <CardBody className="overflow-visible py-2 gap-4">
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-3xl uppercase font-bold",
-              )}
-            >
-              150 EURO / 750 RON
-            </p>
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-xl text-default-500 uppercase font-bold",
-              )}
-            >
-              CAMERA REGINEI
-            </p>
-            <Button
-              as={Link}
-              className="text-lg font-normal text-default-600 bg-default-100"
-              href="/contact"
-              variant="flat"
-            >
-              Rezervă acum &rarr;
-            </Button>
-          </CardBody>
-        </Card>
-        <Card className="py-4 w-96">
-          <CardHeader className="pt-2 px-4 flex-col items-center">
-            <Image
-              alt="Camera Deluxe"
-              className="object-cover rounded-xl"
-              height={160}
-              src={karol4.src}
-              width={270}
-            />
-          </CardHeader>
-          <CardBody className="overflow-visible py-2 gap-4">
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-3xl uppercase font-bold",
-              )}
-            >
-              100 EURO / 500 RON
-            </p>
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-xl text-default-500 uppercase font-bold",
-              )}
-            >
-              CAMERĂ DELUXE
-            </p>
-            <Button
-              as={Link}
-              className="text-lg font-normal text-default-600 bg-default-100"
-              href="/contact"
-              variant="flat"
-            >
-              Rezervă acum &rarr;
-            </Button>
-          </CardBody>
-        </Card>
-        <Card className="py-4 w-96">
-          <CardHeader className="pt-2 px-4 flex-col items-center">
-            <Image
-              alt="Camera dubla traditionala"
-              className="object-cover rounded-xl"
-              height={160}
-              src={room3_1.src}
-              width={270}
-            />
-          </CardHeader>
-          <CardBody className="overflow-visible py-2 gap-4">
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-3xl uppercase font-bold",
-              )}
-            >
-              80 EURO / 400 RON
-            </p>
-            <p
-              className={clsx(
-                fontSans.className,
-                "text-xl text-default-500 uppercase font-bold",
-              )}
-            >
-              CAMERĂ DUBLĂ TRADIȚIONALĂ
-            </p>
-            <Button
-              as={Link}
-              className="text-lg font-normal text-default-600 bg-default-100"
-              href="/contact"
-              variant="flat"
-            >
-              Rezervă acum &rarr;
-            </Button>
-          </CardBody>
-        </Card>
-        <Card className="py-4 w-96">
-          <CardHeader className="pt-2 px-4 flex-col items-center">
-            <Image
-              alt="Camera single"
-              className="object-cover rounded-xl"
-              height={160}
               src={room12_1.src}
               width={270}
             />
@@ -291,7 +61,7 @@ export default function CazarePage() {
                 "text-3xl uppercase font-bold",
               )}
             >
-              70 EURO / 350 RON
+              350 RON
             </p>
             <p
               className={clsx(
@@ -328,7 +98,7 @@ export default function CazarePage() {
                 "text-3xl uppercase font-bold",
               )}
             >
-              90 EURO / 450 RON
+              400 RON
             </p>
             <p
               className={clsx(
@@ -337,6 +107,276 @@ export default function CazarePage() {
               )}
             >
               CAMERĂ DUBLĂ
+            </p>
+            <Button
+              as={Link}
+              className="text-lg font-normal text-default-600 bg-default-100"
+              href="/contact"
+              variant="flat"
+            >
+              Rezervă acum &rarr;
+            </Button>
+          </CardBody>
+        </Card>
+        <Card className="py-4 w-96">
+          <CardHeader className="pt-2 px-4 flex-col items-center">
+            <Image
+              alt="Camera twin"
+              className="object-cover rounded-xl"
+              height={160}
+              src={armenopolisCameraEtaj.src}
+              width={270}
+            />
+          </CardHeader>
+          <CardBody className="overflow-visible py-2 gap-4">
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-3xl uppercase font-bold",
+              )}
+            >
+              450 RON
+            </p>
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-xl text-default-500 uppercase font-bold",
+              )}
+            >
+              CAMERĂ TWIN
+            </p>
+            <Button
+              as={Link}
+              className="text-lg font-normal text-default-600 bg-default-100"
+              href="/contact"
+              variant="flat"
+            >
+              Rezervă acum &rarr;
+            </Button>
+          </CardBody>
+        </Card>
+        <Card className="py-4 w-96">
+          <CardHeader className="pt-2 px-4 flex-col items-center">
+            <Image
+              alt="Camera deluxe"
+              className="object-cover rounded-xl"
+              height={160}
+              src={armenopolisCamera.src}
+              width={270}
+            />
+          </CardHeader>
+          <CardBody className="overflow-visible py-2 gap-4">
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-3xl uppercase font-bold",
+              )}
+            >
+              450 RON
+            </p>
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-xl text-default-500 uppercase font-bold",
+              )}
+            >
+              CAMERĂ DELUXE
+            </p>
+            <Button
+              as={Link}
+              className="text-lg font-normal text-default-600 bg-default-100"
+              href="/contact"
+              variant="flat"
+            >
+              Rezervă acum &rarr;
+            </Button>
+          </CardBody>
+        </Card>
+        <Card className="py-4 w-96">
+          <CardHeader className="pt-2 px-4 flex-col items-center">
+            <Image
+              alt="Camera dubla deluxe"
+              className="object-cover rounded-xl"
+              height={160}
+              src={armenopolisCamera2.src}
+              width={270}
+            />
+          </CardHeader>
+          <CardBody className="overflow-visible py-2 gap-4">
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-3xl uppercase font-bold",
+              )}
+            >
+              600 RON
+            </p>
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-xl text-default-500 uppercase font-bold",
+              )}
+            >
+              CAMERĂ DUBLĂ DELUXE
+            </p>
+            <Button
+              as={Link}
+              className="text-lg font-normal text-default-600 bg-default-100"
+              href="/contact"
+              variant="flat"
+            >
+              Rezervă acum &rarr;
+            </Button>
+          </CardBody>
+        </Card>
+      </section>
+      <Divider />
+      <h1
+        className={clsx(
+          fontSans.className,
+          "text-xl md:text-4xl font-bold text-center",
+        )}
+      >
+        Hotel Karol
+      </h1>
+      <section className="flex justify-center gap-4 flex-wrap">
+        <Card className="py-4 w-96">
+          <CardHeader className="pt-2 px-4 flex-col items-center">
+            <Image
+              alt="Dormitorul Regelui"
+              className="object-cover rounded-xl"
+              height={160}
+              src={karol5.src}
+              width={270}
+            />
+          </CardHeader>
+          <CardBody className="overflow-visible py-2 gap-4">
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-3xl uppercase font-bold",
+              )}
+            >
+              750 RON
+            </p>
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-xl text-default-500 uppercase font-bold",
+              )}
+            >
+              DORMITORUL REGELUI
+            </p>
+            <Button
+              as={Link}
+              className="text-lg font-normal text-default-600 bg-default-100"
+              href="/contact"
+              variant="flat"
+            >
+              Rezervă acum &rarr;
+            </Button>
+          </CardBody>
+        </Card>
+        <Card className="py-4 w-96">
+          <CardHeader className="pt-2 px-4 flex-col items-center">
+            <Image
+              alt="Dormitorul Reginei"
+              className="object-cover rounded-xl"
+              height={160}
+              src={karol6.src}
+              width={270}
+            />
+          </CardHeader>
+          <CardBody className="overflow-visible py-2 gap-4">
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-3xl uppercase font-bold",
+              )}
+            >
+              750 RON
+            </p>
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-xl text-default-500 uppercase font-bold",
+              )}
+            >
+              DORMITORUL REGINEI
+            </p>
+            <Button
+              as={Link}
+              className="text-lg font-normal text-default-600 bg-default-100"
+              href="/contact"
+              variant="flat"
+            >
+              Rezervă acum &rarr;
+            </Button>
+          </CardBody>
+        </Card>
+        <Card className="py-4 w-96">
+          <CardHeader className="pt-2 px-4 flex-col items-center">
+            <Image
+              alt="Camera Deluxe"
+              className="object-cover rounded-xl"
+              height={160}
+              src={karol4.src}
+              width={270}
+            />
+          </CardHeader>
+          <CardBody className="overflow-visible py-2 gap-4">
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-3xl uppercase font-bold",
+              )}
+            >
+              500 RON
+            </p>
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-xl text-default-500 uppercase font-bold",
+              )}
+            >
+              CAMERĂ DELUXE
+            </p>
+            <Button
+              as={Link}
+              className="text-lg font-normal text-default-600 bg-default-100"
+              href="/contact"
+              variant="flat"
+            >
+              Rezervă acum &rarr;
+            </Button>
+          </CardBody>
+        </Card>
+        <Card className="py-4 w-96">
+          <CardHeader className="pt-2 px-4 flex-col items-center">
+            <Image
+              alt="Camera dubla traditionala"
+              className="object-cover rounded-xl"
+              height={160}
+              src={room3_1.src}
+              width={270}
+            />
+          </CardHeader>
+          <CardBody className="overflow-visible py-2 gap-4">
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-3xl uppercase font-bold",
+              )}
+            >
+              450 RON
+            </p>
+            <p
+              className={clsx(
+                fontSans.className,
+                "text-xl text-default-500 uppercase font-bold",
+              )}
+            >
+              CAMERĂ DUBLĂ TRADIȚIONALĂ
             </p>
             <Button
               as={Link}
@@ -365,7 +405,7 @@ export default function CazarePage() {
                 "text-3xl uppercase font-bold",
               )}
             >
-              110 EURO / 550 RON
+              550 RON
             </p>
             <p
               className={clsx(
@@ -413,7 +453,7 @@ export default function CazarePage() {
                 "text-3xl uppercase font-bold",
               )}
             >
-              240 EURO / 1200 RON
+              1250 RON
             </p>
             <p
               className={clsx(

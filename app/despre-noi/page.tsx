@@ -110,7 +110,7 @@ export default function DespreNoiPage() {
             <small
               className={clsx(fontSerif.className, "text-default-500 text-lg")}
             >
-              Un hotel elegant, care îmbină confortul cu farmecul clasic,
+              Un hotel elegant, care îmbină confortul cu farmecul aristocrat,
               perfect atât pentru călătorii de afaceri, cât și pentru turiști.
             </small>
           </CardBody>
@@ -163,22 +163,19 @@ export default function DespreNoiPage() {
         <span className={clsx(fontSerif.className)}>Hotel Armenopolis</span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Amenajat într-o casă armenească din 1762, Hotelul Armenopolis este o
-        oază barocă de relaxare, situată în centrul orașului Gherla, la doar 45
-        km de Cluj-Napoca și Aeroportul Internațional Avram Iancu. Această
-        reședință istorică, inițial locuință a unei familii armene, a fost
-        transformată ulterior într-o școală evreiască și păstrează farmecul
-        epocilor trecute prin arhitectura sa elegantă, bolțile rafinate și
-        mobilierul din lemn masiv.
+        Hotel Armenopolis este amenajat într-un conac armenesc din 1762 având o
+        arhitectură barocă. Este situat în centrul orașului Gherla, la 45 de km
+        de Cluj-Napoca și de Aeroportul Internațional Avram Iancu. Această
+        reședință istorică, inițial locuința unei familii armene, a fost
+        transformată ulterior în școală evreiască și păstrează farmecul epocilor
+        trecute prin arhitectura sa elegantă, bolțile rafinate și mobilierul din
+        lemn masiv.
         <br />
         <br />
-        Cu 12 camere confortabile, dintre care 4 duble și 8 single, Armenopolis
-        îmbină armonios spiritul baroc al secolului XVIII cu dotările moderne.
-        Micul dejun bogat și variat este servit într-un living decorat cu
-        obiecte de colecție de la începutul anilor 1900, iar pentru momente de
-        relaxare sau socializare, crama medievală păstrată intactă din anul
-        1762, cu o capacitate de 30 de locuri, oferă cadrul perfect pentru
-        degustarea vinurilor alese.
+        Cu 12 camere confortabile, dintre care 4 duble și 8 single, hotelul
+        Armenopolis îmbină armonios spiritul baroc al secolului al VIII-lea cu
+        dotările moderne. Micul dejun bogat și variat este servit într-un living
+        decorat cu obiecte de colecție de la începutul anilor 1800.
         <br />
         <br />
         Hotel Armenopolis nu este doar o destinație de cazare, ci și un loc
@@ -320,8 +317,8 @@ export default function DespreNoiPage() {
         <span className={clsx(fontSerif.className)}>Jacuzzi</span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Masa noastră de masaj confortabilă vă așteaptă într-un mediu liniștit,
-        perfect pentru a elimina stresul și a vă reda starea de bine.
+        Pentru a elimina stresul și a vă reda starea de bine vă puteți bucura,
+        într-un mediu liniștit, de experiența unui masaj de relaxare revigorant.
       </article>
       <div className="flex flex-col gap-2">
         <Image
@@ -348,14 +345,9 @@ export default function DespreNoiPage() {
         <span className={clsx(fontSerif.className)}>Saună pentru relaxare</span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Serviciile Spa se oferă de la minim 4 persoane, având următorele tarife:{" "}
-        <br />
-        <article className="grid grid-cols-2 p-4">
-          <span>&#x2022; Jacuzzi + saună:</span>
-          <strong className="mx-6">100 RON / zi</strong>
-          <span>&#x2022; Masaj:</span>
-          <strong className="mx-6">100 RON / 30 minute</strong>
-        </article>
+        Serviciile SPA (jacuzzi + saună) se oferă pentru minim 4 persoane la
+        prețul de 100 RON / persoană / 4 ore, iar cele de masaj sunt de 150 RON
+        / 50 minute.
       </article>
       <h1
         className={clsx(
@@ -462,23 +454,16 @@ export default function DespreNoiPage() {
       </div>
       <div className="flex flex-col gap-2">
         <Image
-          alt="Dormiror simplu cu pat dublu"
+          alt="Dormitor simplu cu pat dublu"
           isBlurred={true}
           loading="eager"
           src={karol8.src}
           width="750"
         />
         <span className={clsx(fontSerif.className)}>
-          Dormiror simplu cu pat dublu
+          Dormitor simplu cu pat dublu
         </span>
       </div>
-      <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Pe lângă serviciile hoteliere de excepție, hotelul pune la dispoziție o
-        experiență culinară unică, oferind oportunitatea de a organiza
-        concursuri de gătit memorabile, desfășurate atât în bucătăria elegantă a
-        hotelului, precum și pe terasa amenajată cu rafinament, ideală pentru
-        preparate la grătar.
-      </article>
       <div className="flex flex-col gap-2">
         <Image
           alt="Bucătăria interioară a hotelului"
@@ -632,13 +617,13 @@ export default function DespreNoiPage() {
         </span>
       </div>
       <article className={clsx(fontSerif.className, "mt-4 text-xl")}>
-        Locația excelează în crearea unui mediu perfect, îmbinând relaxarea cu o
-        varietate de opțiuni de divertisment.
+        Complexul hotelier excelează în crearea unui mediu perfect, îmbinând
+        relaxarea cu o varietate de opțiuni de divertisment.
         <br />
-        <br /> Locul este recunoscut pentru serviciile sale excepționale și
-        pentru capacitatea de a oferi experiențe personalizate fiecărui grup.
+        <br /> Suntem recunocuți pentru serviciile excepționale și pentru
+        capacitatea de a oferi experiențe personalizate fiecărui grup.
         Indiferent dacă preferați activități în aer liber sau momente de
-        relaxare la spa, Complexul Hotelier Armenopolis răspunde nevoilor
+        relaxare la SPA, Complexul Hotelier Armenopolis răspunde nevoilor
         echipelor care doresc să se reconecteze și să crească împreună.
       </article>
     </main>
