@@ -5,7 +5,7 @@ import { FacebookIcon, InstagramIcon } from "@/components/icons";
 
 export default function ContactPage() {
   return (
-    <main className="flex flex-col md:flex-row md:px-24 gap-8 text-left items-center w-full md:h-4/6 text-sm md:text-xl md:my-6 md:gap-0">
+    <main className="flex flex-col md:flex-row md:px-24 gap-8 text-left items-center w-full md:h-4/6 text-sm md:text-xl md:my-6 md:gap-0 pt-24">
       <div className="flex flex-col gap-4 md:w-5/6 md:gap-6">
         <span className="text-2xl md:text-5xl text-default-600">
           ✉️ E-mail:
@@ -26,6 +26,13 @@ export default function ContactPage() {
           isExternal={true}
         >
           +40 723 946 272
+        </Link>
+        <Link
+          className="text-blue-600 hover:underline text-xl"
+          href="tel:+40721120120"
+          isExternal={true}
+        >
+          +40 721 120 120
         </Link>
         <span className="text-2xl md:text-5xl text-default-600">
           📆 Program:
